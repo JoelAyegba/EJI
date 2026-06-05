@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
   Target,
@@ -82,6 +82,7 @@ const focusAreas = [
 
 export const About: React.FC = () => {
   const { navigateTo } = useNavigation();
+  const [activeMember, setActiveMember] = useState<string | null>(null);
 
   // Display order: place Bernard (Executive Director) in the middle.
   const orderedTeam = (() => {
@@ -245,21 +246,24 @@ export const About: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {orderedTeam.map((member, idx) => (
+            {orderedTeam.map((member, idx) => {
+              const isActive = activeMember === member.id;
+              return (
               <motion.div
                 key={member.id}
+                onClick={() => setActiveMember(isActive ? null : member.id)}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: idx * 0.05 }}
-                className="group relative bg-white border border-slate-200 rounded-3xl overflow-hidden hover:border-advocacy-gold/50 hover:shadow-xl hover:shadow-advocacy-gold/5 transition-all duration-300"
+                className="group relative bg-white border border-slate-200 rounded-3xl overflow-hidden hover:border-advocacy-gold/50 hover:shadow-xl hover:shadow-advocacy-gold/5 transition-all duration-300 cursor-pointer"
               >
                 <div className="aspect-[4/5] bg-slate-100 overflow-hidden flex items-center justify-center">
                   {member.imageUrl ? (
                     <img
                       src={member.imageUrl}
                       alt={member.name}
-                      className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                      className={`w-full h-full object-cover object-top transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105 ${isActive ? 'grayscale-0 scale-105' : 'grayscale'}`}
                     />
                   ) : (
                     <span className="font-serif font-bold text-5xl text-advocacy-gold">{getInitials(member.name)}</span>
@@ -272,13 +276,18 @@ export const About: React.FC = () => {
                   <p className="text-xs font-bold text-advocacy-gold uppercase tracking-wider mt-1.5">{member.role}</p>
                 </div>
 
-                {/* Hover Popup */}
-                <div className="absolute inset-0 flex flex-col justify-end p-6 bg-gradient-to-t from-slate-950 via-slate-950/85 to-slate-950/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none group-hover:pointer-events-auto">
+                {/* Reveal Popup (hover on desktop, tap on mobile) */}
+                <div
+                  className={`absolute inset-0 flex flex-col justify-end p-6 bg-gradient-to-t from-slate-950 via-slate-950/85 to-slate-950/30 transition-opacity duration-300 group-hover:opacity-100 group-hover:pointer-events-auto ${isActive ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+                >
                   <h3 className="font-serif text-lg font-bold text-white leading-tight">{member.name}</h3>
                   <p className="text-[10px] font-bold text-advocacy-gold uppercase tracking-wider mt-1">{member.role}</p>
                   <p className="text-slate-200 text-xs leading-relaxed mt-3">{member.summary}</p>
                   <button
-                    onClick={() => navigateTo('team', { focus: member.id })}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      navigateTo('team', { focus: member.id });
+                    }}
                     className="inline-flex items-center gap-1.5 text-xs font-semibold text-advocacy-gold hover:text-white transition-colors mt-4 w-fit cursor-pointer"
                   >
                     <span>View full profile</span>
@@ -286,7 +295,8 @@ export const About: React.FC = () => {
                   </button>
                 </div>
               </motion.div>
-            ))}
+              );
+            })}
           </div>
         </div>
 
