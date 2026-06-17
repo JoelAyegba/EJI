@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { teamMembers } from '../data/mockData';
 import { motion } from 'framer-motion';
-import { useNavigation } from '../context/NavigationContext';
+import { Seo } from '../components/Seo';
+import { PAGE_SEO } from '../seoConfig';
 
 const getInitials = (name: string) =>
   name
@@ -14,19 +16,21 @@ const getInitials = (name: string) =>
     .toUpperCase();
 
 export const Team: React.FC = () => {
-  const { params } = useNavigation();
+  const { hash } = useLocation();
 
   useEffect(() => {
-    if (!params?.focus) return;
+    const id = hash.replace(/^#/, '');
+    if (!id) return;
     const timer = setTimeout(() => {
-      const el = document.getElementById(params.focus);
+      const el = document.getElementById(id);
       if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 150);
     return () => clearTimeout(timer);
-  }, [params]);
+  }, [hash]);
 
   return (
     <div className="font-sans">
+      <Seo {...PAGE_SEO.team} />
 
       {/* Leadership Hero */}
       <section className="relative h-[60vh] min-h-[460px] flex items-center overflow-hidden bg-slate-950">
@@ -80,6 +84,8 @@ export const Team: React.FC = () => {
                         <img
                           src={member.imageUrl}
                           alt={member.name}
+                          loading="lazy"
+                          decoding="async"
                           className="w-full h-full object-cover object-top"
                         />
                       ) : (

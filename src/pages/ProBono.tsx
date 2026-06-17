@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Scale, CheckCircle, ShieldAlert, ArrowRight, Upload, Loader, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { WEB3FORMS_ACCESS_KEY } from '../config';
+import { Seo } from '../components/Seo';
+import { PAGE_SEO } from '../seoConfig';
 
 export const ProBono: React.FC = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -65,6 +67,7 @@ export const ProBono: React.FC = () => {
 
   return (
     <div className="bg-white py-20 font-sans">
+      <Seo {...PAGE_SEO.proBono} />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
         {/* Section Header */}
@@ -190,11 +193,11 @@ export const ProBono: React.FC = () => {
 
               </div>
 
-              {/* Encryption Alert */}
+              {/* Confidentiality Alert */}
               <div className="bg-slate-50 border border-slate-200 p-4 rounded-xl flex items-start space-x-3 text-xs">
                 <ShieldAlert className="h-4 w-4 text-advocacy-gold shrink-0 mt-0.5" />
                 <span className="text-slate-650 font-sans leading-relaxed">
-                  <strong>Attorney-Client Privilege:</strong> The details provided here are protected under professional legal privilege, encrypted end-to-end, and will not be disclosed to any government agency without consent.
+                  <strong>Confidential:</strong> The details you provide are sent securely over HTTPS and treated in strict confidence by our legal team. We will not share your information with any third party without your consent.
                 </span>
               </div>
 

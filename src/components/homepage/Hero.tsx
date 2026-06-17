@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigation } from '../../context/NavigationContext';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HelpCircle, UserPlus } from 'lucide-react';
 
@@ -49,7 +49,6 @@ const slides: Slide[] = [
 const SLIDE_DURATION = 6500;
 
 export const Hero: React.FC = () => {
-  const { navigateTo } = useNavigation();
   const [active, setActive] = useState(0);
 
   useEffect(() => {
@@ -111,21 +110,21 @@ export const Hero: React.FC = () => {
 
           {/* Actions */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-10">
-            <button
-              onClick={() => navigateTo('pro-bono')}
+            <Link
+              to="/pro-bono"
               className="flex items-center justify-center space-x-2 px-8 py-4 border border-action-red bg-action-red/10 text-white font-semibold rounded-full uppercase tracking-wider text-sm transition-all duration-300 hover:bg-action-red cursor-pointer"
             >
               <HelpCircle className="h-4 w-4" />
               <span>Report Abuse</span>
-            </button>
+            </Link>
 
-            <button
-              onClick={() => navigateTo('contact')}
+            <Link
+              to="/contact"
               className="flex items-center justify-center space-x-2 px-8 py-4 border border-white/30 text-white font-semibold rounded-full uppercase tracking-wider text-sm transition-all duration-300 hover:border-white hover:bg-white/10 cursor-pointer"
             >
               <UserPlus className="h-4 w-4" />
               <span>Become a Volunteer</span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>

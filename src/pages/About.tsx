@@ -16,8 +16,10 @@ import {
   Mic,
   ArrowRight,
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { teamMembers } from '../data/mockData';
-import { useNavigation } from '../context/NavigationContext';
+import { Seo } from '../components/Seo';
+import { PAGE_SEO } from '../seoConfig';
 
 const coreValues = [
   {
@@ -81,7 +83,6 @@ const focusAreas = [
 ];
 
 export const About: React.FC = () => {
-  const { navigateTo } = useNavigation();
   const [activeMember, setActiveMember] = useState<string | null>(null);
 
   // Display order: place Bernard (Executive Director) in the middle.
@@ -106,6 +107,7 @@ export const About: React.FC = () => {
 
   return (
     <div className="font-sans">
+      <Seo {...PAGE_SEO.about} />
 
       {/* Static Hero */}
       <section className="relative h-[55vh] min-h-[420px] flex items-center justify-center overflow-hidden bg-slate-950">
@@ -144,6 +146,8 @@ export const About: React.FC = () => {
             <img
               src="/logo.jpeg"
               alt="Equal Justice Initiative logo"
+              loading="lazy"
+              decoding="async"
               className="w-full max-w-xl h-auto object-contain"
             />
           </div>
@@ -228,7 +232,7 @@ export const About: React.FC = () => {
 
         {/* Leadership Team */}
         <div className="space-y-12">
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
+          <div className="flex flex-col items-center text-center gap-4">
             <div className="max-w-2xl">
               <span className="text-advocacy-gold text-xs uppercase tracking-[0.25em] font-bold">Our Leadership</span>
               <h2 className="font-serif text-3xl font-bold text-slate-900 mt-3">Meet the Team</h2>
@@ -236,13 +240,13 @@ export const About: React.FC = () => {
                 An interdisciplinary team of lawyers, journalists, and policy analysts driving EJI&rsquo;s work.
               </p>
             </div>
-            <button
-              onClick={() => navigateTo('team')}
+            <Link
+              to="/team"
               className="inline-flex items-center gap-1.5 text-sm font-semibold text-advocacy-gold hover:text-slate-900 transition-colors cursor-pointer shrink-0"
             >
               <span>View full profiles</span>
               <ArrowRight className="h-4 w-4" />
-            </button>
+            </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -263,6 +267,8 @@ export const About: React.FC = () => {
                     <img
                       src={member.imageUrl}
                       alt={member.name}
+                      loading="lazy"
+                      decoding="async"
                       className={`w-full h-full object-cover object-top transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105 ${isActive ? 'grayscale-0 scale-105' : 'grayscale'}`}
                     />
                   ) : (
@@ -283,16 +289,14 @@ export const About: React.FC = () => {
                   <h3 className="font-serif text-lg font-bold text-white leading-tight">{member.name}</h3>
                   <p className="text-[10px] font-bold text-advocacy-gold uppercase tracking-wider mt-1">{member.role}</p>
                   <p className="text-slate-200 text-xs leading-relaxed mt-3">{member.summary}</p>
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      navigateTo('team', { focus: member.id });
-                    }}
+                  <Link
+                    to={`/team#${member.id}`}
+                    onClick={(e) => e.stopPropagation()}
                     className="inline-flex items-center gap-1.5 text-xs font-semibold text-advocacy-gold hover:text-white transition-colors mt-4 w-fit cursor-pointer"
                   >
                     <span>View full profile</span>
                     <ArrowRight className="h-3.5 w-3.5" />
-                  </button>
+                  </Link>
                 </div>
               </motion.div>
               );

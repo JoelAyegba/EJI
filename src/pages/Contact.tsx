@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, CheckCircle, Heart, Loader, AtSign, Camera, AlertCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, CheckCircle, Heart, Loader, AlertCircle } from 'lucide-react';
+import { XIcon, InstagramIcon } from '../components/SocialIcons';
 import { motion } from 'framer-motion';
 import { WEB3FORMS_ACCESS_KEY } from '../config';
+import { Seo } from '../components/Seo';
+import { PAGE_SEO } from '../seoConfig';
 
 export const Contact: React.FC = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -56,6 +59,7 @@ export const Contact: React.FC = () => {
 
   return (
     <div className="font-sans">
+      <Seo {...PAGE_SEO.contact} />
 
       {/* Contact Hero */}
       <section className="relative h-[55vh] min-h-[420px] flex items-center overflow-hidden bg-slate-950">
@@ -127,8 +131,8 @@ export const Contact: React.FC = () => {
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2.5 hover:text-advocacy-gold transition-colors"
                   >
-                    <AtSign className="h-4 w-4 text-advocacy-gold shrink-0" />
-                    <span><span className="text-slate-400">Twitter</span> &nbsp;@Equal_JusticeIN</span>
+                    <XIcon className="h-3.5 w-3.5 text-advocacy-gold shrink-0" />
+                    <span><span className="text-slate-400">X (Twitter)</span> &nbsp;@Equal_JusticeIN</span>
                   </a>
                   <a
                     href="https://instagram.com/Equa_Justiceinitiave"
@@ -136,7 +140,7 @@ export const Contact: React.FC = () => {
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2.5 hover:text-advocacy-gold transition-colors"
                   >
-                    <Camera className="h-4 w-4 text-advocacy-gold shrink-0" />
+                    <InstagramIcon className="h-4 w-4 text-advocacy-gold shrink-0" />
                     <span><span className="text-slate-400">Instagram</span> &nbsp;Equa_Justiceinitiave</span>
                   </a>
                 </div>

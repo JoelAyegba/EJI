@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigation, type PageType } from '../../context/NavigationContext';
+import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
+import { NAV_ITEMS } from '../../seoConfig';
+import { XIcon, InstagramIcon } from '../SocialIcons';
 
 export const Footer: React.FC = () => {
-  const { navigateTo } = useNavigation();
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
@@ -16,13 +17,6 @@ export const Footer: React.FC = () => {
     }
   };
 
-  const navItems: { label: string; page: PageType }[] = [
-    { label: 'Home', page: 'home' },
-    { label: 'About Us', page: 'about' },
-    { label: 'Team', page: 'team' },
-    { label: 'Contact', page: 'contact' },
-  ];
-
   return (
     <footer style={{ backgroundColor: '#000d0e' }} className="border-t border-white/10 pt-16 pb-8 text-slate-300 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,23 +24,23 @@ export const Footer: React.FC = () => {
           
           {/* Brand Info */}
           <div className="space-y-4">
-            <div className="flex items-center cursor-pointer w-fit" onClick={() => navigateTo('home')}>
+            <Link to="/" className="flex items-center cursor-pointer w-fit" aria-label="Equal Justice Initiative — home">
               <img
                 src="/logo-light.png"
                 alt="Equal Justice Initiative logo"
                 className="h-16 w-auto object-contain"
               />
-            </div>
+            </Link>
             <p className="text-sm leading-relaxed text-slate-300">
               Equal Justice Initiative (EJI) transforms legal rights into reality. We operate at the intersection of Law, Investigative Media, and Social Accountability to protect human rights across Africa.
             </p>
             {/* Social Icons */}
             <div className="flex space-x-4 pt-2">
               <a href="https://twitter.com/Equal_JusticeIN" target="_blank" rel="noopener noreferrer" aria-label="Twitter @Equal_JusticeIN" className="w-8 h-8 rounded-full bg-white/10 border border-white/15 flex items-center justify-center text-slate-200 hover:border-advocacy-gold hover:text-advocacy-gold transition-all duration-300">
-                <span className="text-xs font-semibold">X</span>
+                <XIcon className="h-3.5 w-3.5" />
               </a>
               <a href="https://instagram.com/Equa_Justiceinitiave" target="_blank" rel="noopener noreferrer" aria-label="Instagram Equa_Justiceinitiave" className="w-8 h-8 rounded-full bg-white/10 border border-white/15 flex items-center justify-center text-slate-200 hover:border-advocacy-gold hover:text-advocacy-gold transition-all duration-300">
-                <span className="text-xs font-semibold">ig</span>
+                <InstagramIcon className="h-4 w-4" />
               </a>
             </div>
           </div>
@@ -55,14 +49,14 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-sans font-bold text-sm uppercase tracking-widest mb-6">Quick Links</h3>
             <ul className="space-y-3">
-              {navItems.map((item) => (
-                <li key={item.page}>
-                  <button 
-                    onClick={() => navigateTo(item.page)}
-                    className="hover:text-advocacy-gold text-slate-300 hover:translate-x-1 transition-all duration-200 text-sm cursor-pointer block text-left"
+              {NAV_ITEMS.map((item) => (
+                <li key={item.path}>
+                  <Link
+                    to={item.path}
+                    className="hover:text-advocacy-gold text-slate-300 hover:translate-x-1 transition-all duration-200 text-sm cursor-pointer inline-block"
                   >
                     {item.label}
-                  </button>
+                  </Link>
                 </li>
               ))}
             </ul>

@@ -2,6 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { newsArticles, type NewsArticle } from '../data/mockData';
 import { Search, Calendar, User, Clock, ArrowRight, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Seo } from '../components/Seo';
+import { PAGE_SEO } from '../seoConfig';
 
 export const InvestigativeHub: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -23,6 +25,7 @@ export const InvestigativeHub: React.FC = () => {
 
   return (
     <div className="bg-white py-20 font-sans">
+      <Seo {...PAGE_SEO.newsroom} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Section Header */}

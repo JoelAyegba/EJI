@@ -1,6 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { courtReports, type CourtReport } from '../data/mockData';
 import { Search, Eye, Award, Calendar } from 'lucide-react';
+import { Seo } from '../components/Seo';
+import { PAGE_SEO } from '../seoConfig';
 
 export const TrialWatch: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -28,6 +30,7 @@ export const TrialWatch: React.FC = () => {
 
   return (
     <div className="bg-white py-20 font-sans">
+      <Seo {...PAGE_SEO.trialWatch} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Section Header */}

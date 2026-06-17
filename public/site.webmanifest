@@ -1,0 +1,13 @@
+{
+  "name": "Equal Justice Initiative",
+  "short_name": "EJI",
+  "description": "Advancing the rule of law in Nigeria through Law, Media, and Social Accountability.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#003334",
+  "icons": [
+    { "src": "/android-chrome-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
