@@ -7,7 +7,7 @@ import { PAGE_SEO } from '../seoConfig';
 
 export const InvestigativeHub: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [activeCategory, setActiveCategory] = useState<'All' | 'Investigative Report' | 'Legal Audit' | 'Gender Rights'>('All');
+  const [activeCategory, setActiveCategory] = useState<'All' | 'Blog Post' | 'Financials' | 'Legal Digest'>('All');
   const [selectedArticle, setSelectedArticle] = useState<NewsArticle | null>(null);
 
   const filteredArticles = useMemo(() => {
@@ -30,12 +30,12 @@ export const InvestigativeHub: React.FC = () => {
         
         {/* Section Header */}
         <div className="max-w-3xl pb-8 border-b border-slate-100">
-          <span className="text-advocacy-gold text-xs uppercase tracking-[0.25em] font-bold">The EJI Newsroom</span>
+          <span className="text-advocacy-gold text-xs uppercase tracking-[0.25em] font-bold">EJI Publications</span>
           <h1 className="font-serif text-4xl sm:text-6xl font-bold text-slate-900 mt-3 mb-6 leading-tight">
-            Investigative Reporting.
+            Our Publications.
           </h1>
           <p className="text-slate-655 text-base sm:text-lg leading-relaxed font-sans font-light">
-            Shedding light on corruption, police abuses, and structural human rights violations. Our editorial board works with grassroots whistleblower files to document systemic shortcomings.
+            Access our reports, audited financial updates, and academic legal digests analyzing justice delivery and civic rights across Nigeria.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export const InvestigativeHub: React.FC = () => {
           
           {/* Categories */}
           <div className="flex items-center space-x-2 overflow-x-auto pb-2 md:pb-0">
-            {(['All', 'Investigative Report', 'Legal Audit', 'Gender Rights'] as const).map((cat) => (
+            {(['All', 'Blog Post', 'Financials', 'Legal Digest'] as const).map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}

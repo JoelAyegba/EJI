@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { HelpCircle, UserPlus } from 'lucide-react';
+import { Info, BookOpen } from 'lucide-react';
 
 interface Slide {
   pillar: string;
@@ -111,19 +111,19 @@ export const Hero: React.FC = () => {
           {/* Actions */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-10">
             <Link
-              to="/pro-bono"
+              to="/about"
               className="flex items-center justify-center space-x-2 px-8 py-4 border border-action-red bg-action-red/10 text-white font-semibold rounded-full uppercase tracking-wider text-sm transition-all duration-300 hover:bg-action-red cursor-pointer"
             >
-              <HelpCircle className="h-4 w-4" />
-              <span>Report Abuse</span>
+              <Info className="h-4 w-4" />
+              <span>About us</span>
             </Link>
 
             <Link
-              to="/contact"
+              to="/newsroom"
               className="flex items-center justify-center space-x-2 px-8 py-4 border border-white/30 text-white font-semibold rounded-full uppercase tracking-wider text-sm transition-all duration-300 hover:border-white hover:bg-white/10 cursor-pointer"
             >
-              <UserPlus className="h-4 w-4" />
-              <span>Become a Volunteer</span>
+              <BookOpen className="h-4 w-4" />
+              <span>Read our publication</span>
             </Link>
           </div>
         </div>

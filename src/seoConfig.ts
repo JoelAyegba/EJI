@@ -14,6 +14,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', path: '/' },
   { label: 'About Us', path: '/about' },
   { label: 'Team', path: '/team' },
+  { label: 'Publications', path: '/newsroom' },
   { label: 'Contact', path: '/contact' },
 ];
 

@@ -116,13 +116,8 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Legal & Copyright */}
-        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-400">
+        <div className="border-t border-white/10 mt-12 pt-8 text-center text-xs text-slate-400">
           <p>&copy; {new Date().getFullYear()} Equal Justice Initiative (EJI) Nigeria. All Rights Reserved. CAC Reg: CAC/IT/NO/948271.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-advocacy-gold">Privacy Policy</a>
-            <a href="#" className="hover:text-advocacy-gold">Terms of Service</a>
-            <a href="#" className="hover:text-advocacy-gold">Report Corruption</a>
-          </div>
         </div>
       </div>
     </footer>

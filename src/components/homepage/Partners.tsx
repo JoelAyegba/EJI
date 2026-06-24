@@ -2,16 +2,10 @@ import React from 'react';
 
 export const Partners: React.FC = () => {
   const partnerNames = [
-    'Open Society Foundations',
-    'MacArthur Foundation',
-    'Ford Foundation',
-    'Amnesty International',
-    'Human Rights Watch',
-    'Legal Aid Council of Nigeria',
-    'National Human Rights Commission',
-    'Civic Tech Africa Fund',
-    'Luminate Group',
-    'NED Endowment for Democracy'
+    'Hope Behind Bars Africa',
+    'The Liberalist Centre',
+    'Young Mens Network Against SGBV',
+    'Nigerian Correctional Centre'
   ];
 
   // Duplicate the array to ensure seamless infinite looping ticker

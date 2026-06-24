@@ -8,18 +8,7 @@ export interface FocusArea {
   impactMetrics: string[];
 }
 
-export interface Documentary {
-  id: string;
-  title: string;
-  description: string;
-  duration: string;
-  year: string;
-  posterUrl: string;
-  videoUrl: string; // YouTube or placeholder
-  impactAchieved: string;
-  category: string;
-  featured?: boolean;
-}
+
 
 export interface ImpactStory {
   id: string;
@@ -115,44 +104,7 @@ export const focusAreas: FocusArea[] = [
   }
 ];
 
-export const documentaries: Documentary[] = [
-  {
-    id: 'behind-the-bars',
-    title: 'Behind The Bars',
-    description: 'An immersive investigation into the overcrowding of Nigerian correctional facilities, telling the stories of hundreds awaiting trial for over a decade without charges.',
-    duration: '48 mins',
-    year: '2025',
-    posterUrl: '/documentary_poster.png',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder embed url
-    impactAchieved: 'Triggered the immediate judicial audit and release of 340 long-term pre-trial detainees.',
-    category: 'Criminal Justice',
-    featured: true
-  },
-  {
-    id: 'hush-money',
-    title: 'Hush Money: Police Extortion',
-    description: 'An undercover camera investigation capturing daily traffic and detention extortion networks in metropolitan hubs.',
-    duration: '32 mins',
-    year: '2024',
-    posterUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    impactAchieved: 'Led to the dismissal and prosecution of 8 corrupt officers and systemic highway reforms.',
-    category: 'Police Reform',
-    featured: false
-  },
-  {
-    id: 'silenced-voices',
-    title: 'Silenced Voices: Gender Advocacy',
-    description: 'Documenting the struggles of grassroots activists campaigning against domestic violence in conservative communities.',
-    duration: '40 mins',
-    year: '2025',
-    posterUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    impactAchieved: 'Supported the legislative passage of the VAPP Act in three additional states.',
-    category: 'Gender Justice',
-    featured: false
-  }
-];
+
 
 export const impactStories: ImpactStory[] = [
   {
@@ -236,7 +188,7 @@ export const newsArticles: NewsArticle[] = [
     date: 'May 15, 2026',
     readTime: '8 min read',
     imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80',
-    category: 'Investigative Report'
+    category: 'Blog Post'
   },
   {
     id: 'news-2',
@@ -246,8 +198,8 @@ export const newsArticles: NewsArticle[] = [
     author: 'Joshua Umoh',
     date: 'April 22, 2026',
     readTime: '5 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1453733190148-c44698c265f8?auto=format&fit=crop&w=800&q=80',
-    category: 'Legal Audit'
+    imageUrl: '/justice-delayed.png',
+    category: 'Legal Digest'
   },
   {
     id: 'news-3',
@@ -258,7 +210,18 @@ export const newsArticles: NewsArticle[] = [
     date: 'March 11, 2026',
     readTime: '6 min read',
     imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
-    category: 'Gender Rights'
+    category: 'Blog Post'
+  },
+  {
+    id: 'news-4',
+    title: 'EJI 2025 Audited Financial Report & Fund Distribution',
+    excerpt: 'Detailed financial update disclosing EJI funding sources, institutional grants, and allocation transparency.',
+    content: 'At Equal Justice Initiative, we maintain a strict transparency protocol. Over the 2025 fiscal year, EJI received $185,000 in total funding. Our resource allocation was as follows: 82% deployed directly to pro bono representation and prisoner reintegration; 10% towards court monitor training and dockets audits under our Trial Watch initiative; and 8% directed to administrative compliance and public storytelling operations. We are proud to maintain a clean auditor opinion from our auditing partners.',
+    author: 'Stephanie O. Tokode, Esq.',
+    date: 'January 25, 2026',
+    readTime: '4 min read',
+    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
+    category: 'Financials'
   }
 ];
 

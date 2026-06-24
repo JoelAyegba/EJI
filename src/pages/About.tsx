@@ -85,14 +85,12 @@ const focusAreas = [
 export const About: React.FC = () => {
   const [activeMember, setActiveMember] = useState<string | null>(null);
 
-  // Display order: place Bernard (Executive Director) in the middle.
+  // Display order: place Bernard (Executive Director) first.
   const orderedTeam = (() => {
     const bernard = teamMembers.find((m) => m.id === 'bernard-oke');
     const rest = teamMembers.filter((m) => m.id !== 'bernard-oke');
     if (!bernard) return teamMembers;
-    const arr = [...rest];
-    arr.splice(Math.floor(teamMembers.length / 2), 0, bernard);
-    return arr;
+    return [bernard, ...rest];
   })();
 
   const getInitials = (name: string) =>
