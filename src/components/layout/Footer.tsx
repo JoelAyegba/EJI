@@ -59,6 +59,14 @@ export const Footer: React.FC = () => {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  to="/donate"
+                  className="hover:text-advocacy-gold text-slate-300 hover:translate-x-1 transition-all duration-200 text-sm cursor-pointer inline-block font-semibold"
+                >
+                  Donate
+                </Link>
+              </li>
             </ul>
           </div>
 

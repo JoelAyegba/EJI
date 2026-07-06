@@ -12,7 +12,10 @@ export const ProBono: React.FC = () => {
   const [contactPhone, setContactPhone] = useState('');
   const [detentionState, setDetentionState] = useState('');
   const [caseDescription, setCaseDescription] = useState('');
-  const [errors, setErrors] = useState<{ name?: string; phone?: string; state?: string; desc?: string }>({});
+  const [age, setAge] = useState('');
+  const [gender, setGender] = useState('');
+  const [consent, setConsent] = useState(false);
+  const [errors, setErrors] = useState<{ name?: string; phone?: string; state?: string; desc?: string; age?: string; gender?: string; consent?: string }>({});
   const [submitError, setSubmitError] = useState<string | null>(null);
 
   const validateForm = () => {
@@ -20,7 +23,10 @@ export const ProBono: React.FC = () => {
     if (!clientName.trim()) tempErrors.name = 'Full name of the victim is required.';
     if (!contactPhone.trim()) tempErrors.phone = 'Contact phone number is required.';
     if (!detentionState.trim()) tempErrors.state = 'Location of the detention is required.';
+    if (!age.trim()) tempErrors.age = 'Victim\'s age is required.';
+    if (!gender.trim()) tempErrors.gender = 'Victim\'s gender is required.';
     if (caseDescription.trim().length < 20) tempErrors.desc = 'Please describe the incident in at least 20 characters.';
+    if (!consent) tempErrors.consent = 'You must provide consent to submit this form.';
 
     setErrors(tempErrors);
     return Object.keys(tempErrors).length === 0;
@@ -44,6 +50,8 @@ export const ProBono: React.FC = () => {
           victim_name: clientName,
           contact_phone: contactPhone,
           detention_location: detentionState,
+          age,
+          gender,
           description: caseDescription,
         }),
       });
@@ -55,6 +63,9 @@ export const ProBono: React.FC = () => {
         setContactPhone('');
         setDetentionState('');
         setCaseDescription('');
+        setAge('');
+        setGender('');
+        setConsent(false);
       } else {
         setSubmitError(data.message || 'Something went wrong. Please try again or call us directly.');
       }
@@ -108,6 +119,9 @@ export const ProBono: React.FC = () => {
                   setContactPhone('');
                   setDetentionState('');
                   setCaseDescription('');
+                  setAge('');
+                  setGender('');
+                  setConsent(false);
                 }}
                 className="px-6 py-2.5 bg-white border border-slate-300 hover:border-slate-800 text-slate-705 hover:text-slate-900 hover:bg-slate-50 rounded-lg text-xs font-bold uppercase tracking-wider transition-colors cursor-pointer"
               >
@@ -167,6 +181,38 @@ export const ProBono: React.FC = () => {
                   {errors.state && <p className="text-xs text-action-red font-sans">{errors.state}</p>}
                 </div>
 
+                {/* Age */}
+                <div className="space-y-2">
+                  <label className="block text-xs uppercase tracking-widest text-slate-500 font-bold">Victim's Age</label>
+                  <input
+                    type="number"
+                    required
+                    placeholder="Enter age"
+                    value={age}
+                    onChange={(e) => setAge(e.target.value)}
+                    className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3.5 text-slate-800 placeholder-slate-400 text-sm focus:outline-none focus:border-slate-800 focus:bg-white transition-colors"
+                  />
+                  {errors.age && <p className="text-xs text-action-red font-sans">{errors.age}</p>}
+                </div>
+
+                {/* Gender */}
+                <div className="space-y-2">
+                  <label className="block text-xs uppercase tracking-widest text-slate-500 font-bold">Victim's Gender</label>
+                  <select
+                    required
+                    value={gender}
+                    onChange={(e) => setGender(e.target.value)}
+                    className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3.5 text-slate-800 text-sm focus:outline-none focus:border-slate-800 focus:bg-white transition-colors"
+                  >
+                    <option value="" disabled>Select gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                  </select>
+                  {errors.gender && <p className="text-xs text-action-red font-sans">{errors.gender}</p>}
+                </div>
+
                 {/* Description */}
                 <div className="space-y-2 sm:col-span-2">
                   <label className="block text-xs uppercase tracking-widest text-slate-500 font-bold">Describe what happened</label>
@@ -200,6 +246,22 @@ export const ProBono: React.FC = () => {
                   <strong>Confidential:</strong> The details you provide are sent securely over HTTPS and treated in strict confidence by our legal team. We will not share your information with any third party without your consent.
                 </span>
               </div>
+
+              {/* Consent */}
+              <div className="flex items-start space-x-2">
+                <input
+                  type="checkbox"
+                  required
+                  id="consent-probono"
+                  checked={consent}
+                  onChange={(e) => setConsent(e.target.checked)}
+                  className="mt-1 w-4 h-4 text-advocacy-gold bg-slate-50 border-slate-300 rounded focus:ring-advocacy-gold cursor-pointer"
+                />
+                <label htmlFor="consent-probono" className="text-xs text-slate-600 leading-relaxed font-sans cursor-pointer">
+                  I consent to providing this information for legal review and intake purposes.
+                </label>
+              </div>
+              {errors.consent && <p className="text-xs text-action-red font-sans">{errors.consent}</p>}
 
               {/* Error message */}
               {submitError && (

@@ -30,10 +30,9 @@ export const Header: React.FC = () => {
               to={item.path}
               end={item.path === '/'}
               className={({ isActive }) =>
-                `relative px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 font-sans tracking-wide cursor-pointer ${
-                  isActive
-                    ? 'text-advocacy-gold'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
+                `relative px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 font-sans tracking-wide cursor-pointer flex items-center ${isActive
+                  ? 'text-advocacy-gold'
+                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
                 }`
               }
             >
@@ -58,10 +57,9 @@ export const Header: React.FC = () => {
           <NavLink
             to="/pro-bono"
             className={({ isActive }) =>
-              `flex items-center space-x-1.5 px-4 py-2 border rounded-full text-xs font-semibold uppercase tracking-wider transition-all duration-300 cursor-pointer ${
-                isActive
-                  ? 'bg-action-red border-action-red text-white shadow-lg shadow-action-red/20'
-                  : 'border-slate-350 text-slate-700 hover:border-action-red hover:text-action-red hover:bg-action-red/5'
+              `flex items-center space-x-1.5 px-4 py-2 border rounded-full text-xs font-semibold uppercase tracking-wider transition-all duration-300 cursor-pointer ${isActive
+                ? 'bg-action-red border-action-red text-white shadow-lg shadow-action-red/20'
+                : 'border-slate-350 text-slate-700 hover:border-action-red hover:text-action-red hover:bg-action-red/5'
               }`
             }
           >
@@ -71,10 +69,18 @@ export const Header: React.FC = () => {
 
           <Link
             to="/contact"
+            className="flex items-center space-x-1.5 px-4 py-2 bg-slate-100 text-slate-900 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-slate-200 transition-all duration-300 cursor-pointer"
+          >
+            <Heart className="h-3.5 w-3.5 fill-current text-slate-500" />
+            <span>Volunteer</span>
+          </Link>
+
+          <Link
+            to="/donate"
             className="flex items-center space-x-1.5 px-4 py-2 bg-advocacy-gold text-slate-900 rounded-full text-xs font-bold uppercase tracking-wider hover:bg-slate-950 hover:text-white transition-all duration-300 cursor-pointer shadow-lg shadow-advocacy-gold/10"
           >
             <Heart className="h-3.5 w-3.5 fill-current" />
-            <span>Volunteer</span>
+            <span>Donate</span>
           </Link>
         </div>
 
@@ -116,10 +122,9 @@ export const Header: React.FC = () => {
                   end={item.path === '/'}
                   onClick={closeMenu}
                   className={({ isActive }) =>
-                    `block w-full text-left px-4 py-3 rounded-lg text-base font-medium transition-all cursor-pointer ${
-                      isActive
-                        ? 'bg-slate-50 text-advocacy-gold border-l-2 border-advocacy-gold'
-                        : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900'
+                    `block w-full text-left px-4 py-3 rounded-lg text-base font-medium transition-all cursor-pointer ${isActive
+                      ? 'bg-slate-50 text-advocacy-gold border-l-2 border-advocacy-gold'
+                      : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900'
                     }`
                   }
                 >
@@ -139,10 +144,18 @@ export const Header: React.FC = () => {
                 <Link
                   to="/contact"
                   onClick={closeMenu}
+                  className="w-full flex items-center justify-center space-x-2 py-3 bg-slate-100 text-slate-700 rounded-lg text-sm font-bold uppercase tracking-wider"
+                >
+                  <Heart className="h-4 w-4 fill-current text-slate-500" />
+                  <span>Become a Volunteer</span>
+                </Link>
+                <Link
+                  to="/donate"
+                  onClick={closeMenu}
                   className="w-full flex items-center justify-center space-x-2 py-3 bg-advocacy-gold text-neutral-dark rounded-lg text-sm font-bold uppercase tracking-wider"
                 >
                   <Heart className="h-4 w-4 fill-current" />
-                  <span>Become a Volunteer</span>
+                  <span>Donate Now</span>
                 </Link>
               </div>
             </div>

@@ -26,7 +26,7 @@ export const StrategicFocusAreas: React.FC = () => {
         <div className="max-w-3xl mb-16">
           <span className="text-advocacy-gold font-sans text-xs uppercase tracking-[0.25em] font-bold">Strategic Pillars</span>
           <h2 className="font-serif text-3xl sm:text-5xl font-bold text-slate-900 mt-3 mb-4 leading-tight">
-            How We Fight
+            How We Work
           </h2>
           <p className="text-slate-600 text-base sm:text-lg font-sans">
             Our strategic focus areas coordinate resources across media channels, trial watch analytics, and courtrooms to guarantee civil freedoms.
@@ -61,7 +61,6 @@ export const StrategicFocusAreas: React.FC = () => {
                     <div className="p-3 bg-slate-100 border border-slate-100 rounded-2xl text-justice-blue group-hover:bg-justice-blue group-hover:text-white transition-colors duration-300">
                       <IconComponent className="h-6 w-6" />
                     </div>
-                    <span className="text-xs font-mono text-slate-500 uppercase tracking-wider">{area.stats}</span>
                   </div>
 
                   {/* Title & Short Description */}

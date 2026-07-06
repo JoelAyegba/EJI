@@ -70,4 +70,10 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     description:
       'Unlawfully detained or facing rights violations? Submit a confidential case report to EJI. Our pro bono attorney network reviews intake requests and coordinates legal defense.',
   },
+  donate: {
+    path: '/donate',
+    title: 'Donate | Equal Justice Initiative',
+    description:
+      'Support the Equal Justice Initiative. Your donations help us provide pro bono legal aid, monitor trials, and drive social accountability across Nigeria.',
+  },
 };

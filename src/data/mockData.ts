@@ -188,7 +188,7 @@ export const newsArticles: NewsArticle[] = [
     date: 'May 15, 2026',
     readTime: '8 min read',
     imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80',
-    category: 'Blog Post'
+    category: 'Blog posts'
   },
   {
     id: 'news-2',
@@ -199,7 +199,7 @@ export const newsArticles: NewsArticle[] = [
     date: 'April 22, 2026',
     readTime: '5 min read',
     imageUrl: '/justice-delayed.png',
-    category: 'Legal Digest'
+    category: 'ACJA Oversight'
   },
   {
     id: 'news-3',
@@ -210,7 +210,7 @@ export const newsArticles: NewsArticle[] = [
     date: 'March 11, 2026',
     readTime: '6 min read',
     imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
-    category: 'Blog Post'
+    category: 'Blog posts'
   },
   {
     id: 'news-4',
@@ -221,7 +221,7 @@ export const newsArticles: NewsArticle[] = [
     date: 'January 25, 2026',
     readTime: '4 min read',
     imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
-    category: 'Financials'
+    category: 'YEARLY REPORTS (FOR OUR ANNUAL FINANCIAL REPORT / ANNUAL IMPACT REPORT)'
   }
 ];
 

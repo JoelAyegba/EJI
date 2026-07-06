@@ -17,6 +17,9 @@ export const Contact: React.FC = () => {
   const [phone, setPhone] = useState('');
   const [role, setRole] = useState('Attorney (Pro-Bono Advocate)');
   const [experience, setExperience] = useState('');
+  const [age, setAge] = useState('');
+  const [gender, setGender] = useState('');
+  const [consent, setConsent] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -36,6 +39,8 @@ export const Contact: React.FC = () => {
           phone,
           preferred_role: role,
           experience,
+          age,
+          gender,
         }),
       });
 
@@ -47,6 +52,9 @@ export const Contact: React.FC = () => {
         setPhone('');
         setRole('Attorney (Pro-Bono Advocate)');
         setExperience('');
+        setAge('');
+        setGender('');
+        setConsent(false);
       } else {
         setError(data.message || 'Something went wrong. Please try again or email us directly.');
       }
@@ -244,6 +252,37 @@ export const Contact: React.FC = () => {
                       </select>
                     </div>
 
+                    {/* Age */}
+                    <div className="space-y-1.5">
+                      <label className="block text-[10px] uppercase tracking-wider text-slate-500 font-bold">Age</label>
+                      <input
+                        type="number"
+                        min="18"
+                        required
+                        placeholder="Enter your age"
+                        value={age}
+                        onChange={(e) => setAge(e.target.value)}
+                        className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-slate-800 placeholder-slate-400 text-sm focus:outline-none focus:border-slate-800 focus:bg-white transition-colors"
+                      />
+                    </div>
+
+                    {/* Gender */}
+                    <div className="space-y-1.5">
+                      <label className="block text-[10px] uppercase tracking-wider text-slate-500 font-bold">Gender</label>
+                      <select
+                        required
+                        value={gender}
+                        onChange={(e) => setGender(e.target.value)}
+                        className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-slate-800 text-sm focus:outline-none focus:border-slate-800 focus:bg-white transition-colors"
+                      >
+                        <option value="" disabled>Select gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                        <option value="Prefer not to say">Prefer not to say</option>
+                      </select>
+                    </div>
+
                     {/* Experience Bio */}
                     <div className="space-y-1.5 sm:col-span-2">
                       <label className="block text-[10px] uppercase tracking-wider text-slate-500 font-bold">Briefly summarize your experience / interest</label>
@@ -255,6 +294,21 @@ export const Contact: React.FC = () => {
                         onChange={(e) => setExperience(e.target.value)}
                         className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-slate-800 placeholder-slate-400 text-sm focus:outline-none focus:border-slate-800 focus:bg-white transition-colors resize-none"
                       />
+                    </div>
+                    
+                    {/* Consent */}
+                    <div className="flex items-start space-x-2 sm:col-span-2">
+                      <input
+                        type="checkbox"
+                        required
+                        id="consent-contact"
+                        checked={consent}
+                        onChange={(e) => setConsent(e.target.checked)}
+                        className="mt-1 w-4 h-4 text-advocacy-gold bg-slate-50 border-slate-300 rounded focus:ring-advocacy-gold cursor-pointer"
+                      />
+                      <label htmlFor="consent-contact" className="text-xs text-slate-600 leading-relaxed font-sans cursor-pointer">
+                        I consent to the collection and processing of my data in accordance with the privacy policy.
+                      </label>
                     </div>
 
                   </div>

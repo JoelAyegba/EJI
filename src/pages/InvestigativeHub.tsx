@@ -7,8 +7,18 @@ import { PAGE_SEO } from '../seoConfig';
 
 export const InvestigativeHub: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
-  const [activeCategory, setActiveCategory] = useState<'All' | 'Blog Post' | 'Financials' | 'Legal Digest'>('All');
+  const [activeCategory, setActiveCategory] = useState<string>('All');
   const [selectedArticle, setSelectedArticle] = useState<NewsArticle | null>(null);
+
+  const CATEGORIES = [
+    'All',
+    'Blog posts',
+    'ACJA Oversight',
+    'News/ Press Releases',
+    'Investigations',
+    'Trial Watch',
+    'YEARLY REPORTS (FOR OUR ANNUAL FINANCIAL REPORT / ANNUAL IMPACT REPORT)'
+  ];
 
   const filteredArticles = useMemo(() => {
     return newsArticles.filter((article) => {
@@ -43,12 +53,12 @@ export const InvestigativeHub: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
           
           {/* Categories */}
-          <div className="flex items-center space-x-2 overflow-x-auto pb-2 md:pb-0">
-            {(['All', 'Blog Post', 'Financials', 'Legal Digest'] as const).map((cat) => (
+          <div className="flex items-center space-x-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide">
+            {CATEGORIES.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-4.5 py-2.5 rounded-lg border text-xs font-bold uppercase tracking-wider transition-colors cursor-pointer whitespace-nowrap ${
+                className={`px-4.5 py-2.5 rounded-lg border text-[10px] font-bold uppercase tracking-wider transition-colors cursor-pointer whitespace-nowrap flex-shrink-0 ${
                   activeCategory === cat
                     ? 'bg-slate-950 border-slate-950 text-white'
                     : 'bg-slate-50 border-slate-200 text-slate-600 hover:border-slate-300 hover:text-slate-900'

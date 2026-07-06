@@ -13,11 +13,11 @@ export const Home: React.FC = () => {
     <>
       <Seo {...PAGE_SEO.home} />
       <Hero />
-      <ImpactStats />
       <AboutEJI />
       <StrategicFocusAreas />
       <JusticeJourney />
       <Partners />
+      <ImpactStats />
     </>
   );
 };
