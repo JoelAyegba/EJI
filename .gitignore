@@ -25,3 +25,10 @@ dist-ssr
 
 # Agent tooling
 .agent/
+
+# Temp extraction files
+extracted_docx/
+extracted_html.txt
+extract_html.py
+fix_*.py
+update_mock_data.py
