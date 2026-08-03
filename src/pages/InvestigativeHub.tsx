@@ -22,11 +22,11 @@ export const InvestigativeHub: React.FC = () => {
 
   const filteredArticles = useMemo(() => {
     return newsArticles.filter((article) => {
-      const matchesSearch = 
+      const matchesSearch =
         article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         article.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
         article.content.toLowerCase().includes(searchQuery.toLowerCase());
-      
+
       const matchesCategory = activeCategory === 'All' || article.category === activeCategory;
 
       return matchesSearch && matchesCategory;
@@ -37,7 +37,7 @@ export const InvestigativeHub: React.FC = () => {
     <div className="bg-white py-20 font-sans">
       <Seo {...PAGE_SEO.newsroom} />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        
+
         {/* Section Header */}
         <div className="max-w-3xl pb-8 border-b border-slate-100">
           <span className="text-advocacy-gold text-xs uppercase tracking-[0.25em] font-bold">EJI Publications</span>
@@ -51,18 +51,17 @@ export const InvestigativeHub: React.FC = () => {
 
         {/* Search & Category Tabs */}
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-          
+
           {/* Categories */}
           <div className="flex items-center space-x-2 overflow-x-auto pb-2 md:pb-0 scrollbar-hide">
             {CATEGORIES.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-4.5 py-2.5 rounded-lg border text-[10px] font-bold uppercase tracking-wider transition-colors cursor-pointer whitespace-nowrap flex-shrink-0 ${
-                  activeCategory === cat
+                className={`px-4.5 py-2.5 rounded-lg border text-[10px] font-bold uppercase tracking-wider transition-colors cursor-pointer whitespace-nowrap flex-shrink-0 ${activeCategory === cat
                     ? 'bg-slate-950 border-slate-950 text-white'
                     : 'bg-slate-50 border-slate-200 text-slate-600 hover:border-slate-300 hover:text-slate-900'
-                }`}
+                  }`}
               >
                 {cat}
               </button>
@@ -97,9 +96,9 @@ export const InvestigativeHub: React.FC = () => {
               <div>
                 {/* Image */}
                 <div className="relative h-48 overflow-hidden bg-slate-50">
-                  <img 
-                    src={article.imageUrl} 
-                    alt={article.title} 
+                  <img
+                    src={article.imageUrl}
+                    alt={article.title}
                     className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-500"
                   />
                   <span className="absolute top-4 left-4 bg-white/90 border border-slate-200 text-[10px] text-advocacy-gold uppercase tracking-wider font-bold px-3 py-1 rounded-full">
@@ -168,7 +167,7 @@ export const InvestigativeHub: React.FC = () => {
               className="bg-white border border-slate-200 w-full max-w-3xl rounded-2xl overflow-hidden shadow-2xl relative"
               onClick={(e) => e.stopPropagation()}
             >
-              
+
               {/* Close Button */}
               <button
                 onClick={() => setSelectedArticle(null)}
@@ -179,9 +178,9 @@ export const InvestigativeHub: React.FC = () => {
 
               {/* Cover Image */}
               <div className="relative h-64 w-full bg-slate-50">
-                <img 
-                  src={selectedArticle.imageUrl} 
-                  alt={selectedArticle.title} 
+                <img
+                  src={selectedArticle.imageUrl}
+                  alt={selectedArticle.title}
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-80"></div>
@@ -209,9 +208,16 @@ export const InvestigativeHub: React.FC = () => {
                   {selectedArticle.title}
                 </h3>
 
-                <p className="text-slate-655 text-sm sm:text-base leading-relaxed font-sans font-light whitespace-pre-line">
-                  {selectedArticle.content}
-                </p>
+                {selectedArticle.contentHTML ? (
+                  <div
+                    className="text-slate-655 text-sm sm:text-base leading-relaxed font-sans font-light"
+                    dangerouslySetInnerHTML={{ __html: selectedArticle.contentHTML }}
+                  />
+                ) : (
+                  <p className="text-slate-655 text-sm sm:text-base leading-relaxed font-sans font-light whitespace-pre-line">
+                    {selectedArticle.content}
+                  </p>
+                )}
               </div>
 
               {/* Modal Footer */}
