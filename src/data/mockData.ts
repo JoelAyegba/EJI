@@ -234,50 +234,6 @@ export const newsArticles: NewsArticle[] = [
 <p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700 indent-8">These monitoring visits continue to reinforce the importance of independent oversight within Nigeria's criminal justice system. Beyond documenting detention conditions, the visits provide opportunities to identify unlawful detention, encourage compliance with due process, promote humane treatment of detainees and strengthen collaboration among justice sector stakeholders.</p>
 <p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700 indent-8">The Equal Justice Initiative remains committed to advancing accountability, protecting fundamental rights and supporting a criminal justice system that is fair, transparent and compliant with the law.</p>
 `
-  },
-  {
-    id: 'news-1',
-    title: 'The Shadows of Remand: Nigeria’s Broken Bail System',
-    excerpt: 'An in-depth investigation into how systemic police extortion and complex court procedures keep innocent citizens locked in detention centers.',
-    content: 'Our reporters spent six months tracking bail processing in three major states. The findings are staggering: over 70% of individuals in correctional facilities are awaiting trial, with many held because they could not pay informal fees demanded for their court files. EJI is calling for an immediate digitisation of case files and a federal investigation into court clerks.',
-    author: 'Chidi Nwankwo',
-    date: 'May 15, 2026',
-    readTime: '8 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80',
-    category: 'Blog posts'
-  },
-  {
-    id: 'news-2',
-    title: 'Justice Delayed: How Adjournments Kill Public Interest Trials',
-    excerpt: 'Analyzing the stalling tactics used by defense teams in major corruption and corporate abuse trials and the judges who allow it.',
-    content: 'By compiling data from our Trial Watch app, we outline the average lifespan of a public interest case. Statistics show a single trial is adjourned on average 14 times, often for trivial reasons like "counsel\'s indisposition" or "missing prosecutor files". We argue for strict limits on adjournment frequencies.',
-    author: 'Joshua Umoh',
-    date: 'April 22, 2026',
-    readTime: '5 min read',
-    imageUrl: '/justice-delayed.png',
-    category: 'ACJA Oversight'
-  },
-  {
-    id: 'news-3',
-    title: 'Customary Court Rules Against Women Land Rights in Niger State',
-    excerpt: 'A report on how traditional institutions continue to disenfranchise widows, and the landmark appeal filed by EJI.',
-    content: 'Following a customary ruling denying Maryam Musa inheritance rights to her late husband’s house, EJI has filed a constitutional appeal. Our gender equality desk argues that constitutional provisions on non-discrimination override custom. This case could establish a critical precedent for thousands of widows.',
-    author: 'Amina Yusuf',
-    date: 'March 11, 2026',
-    readTime: '6 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
-    category: 'Blog posts'
-  },
-  {
-    id: 'news-4',
-    title: 'EJI 2025 Audited Financial Report & Fund Distribution',
-    excerpt: 'Detailed financial update disclosing EJI funding sources, institutional grants, and allocation transparency.',
-    content: 'At Equal Justice Initiative, we maintain a strict transparency protocol. Over the 2025 fiscal year, EJI received $185,000 in total funding. Our resource allocation was as follows: 82% deployed directly to pro bono representation and prisoner reintegration; 10% towards court monitor training and dockets audits under our Trial Watch initiative; and 8% directed to administrative compliance and public storytelling operations. We are proud to maintain a clean auditor opinion from our auditing partners.',
-    author: 'Stephanie O. Tokode, Esq.',
-    date: 'January 25, 2026',
-    readTime: '4 min read',
-    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
-    category: 'YEARLY REPORTS (FOR OUR ANNUAL FINANCIAL REPORT / ANNUAL IMPACT REPORT)'
   }
 ];
 
