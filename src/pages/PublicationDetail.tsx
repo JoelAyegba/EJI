@@ -17,6 +17,7 @@ export const PublicationDetail: React.FC = () => {
       <Seo 
         title={`${article.title} | Equal Justice Initiative`} 
         description={article.excerpt}
+        path={`/newsroom/${article.id}`}
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Back button */}

@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { newsArticles, type NewsArticle } from '../data/mockData';
+import { newsArticles } from '../data/mockData';
 import { Search, Calendar, User, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Seo } from '../components/Seo';
