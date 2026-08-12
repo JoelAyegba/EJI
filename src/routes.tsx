@@ -8,6 +8,7 @@ import { ProBono } from './pages/ProBono';
 import { Team } from './pages/Team';
 import { Contact } from './pages/Contact';
 import { Donate } from './pages/Donate';
+import { PublicationDetail } from './pages/PublicationDetail';
 
 export const routes: RouteRecord[] = [
   {
@@ -22,6 +23,7 @@ export const routes: RouteRecord[] = [
       { path: 'team', element: <Team /> },
       { path: 'contact', element: <Contact /> },
       { path: 'donate', element: <Donate /> },
+      { path: 'newsroom/:id', element: <PublicationDetail /> },
     ],
   },
 ];
