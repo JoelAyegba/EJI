@@ -75,37 +75,44 @@ const AnimatedCounter: React.FC<StatProps> = ({ label, target, suffix, icon, des
 export const ImpactStats: React.FC = () => {
   const statsList = [
     {
-      label: 'Detainees Released',
-      target: 6,
+      label: 'Legal Representation',
+      target: 8,
       suffix: '',
       icon: <Shield className="h-6 w-6" />,
-      description: 'Unlawfully detained individuals freed through our legal interventions and pro bono network, reinforcing due process.',
+      description: 'Individuals provided with direct legal representation through our pro bono network and strategic litigation.',
       delayMs: 100,
     },
     {
-      label: 'Documentaries Produced',
-      target: 2,
+      label: 'Legal Advice',
+      target: 4,
       suffix: '',
-      icon: <Film className="h-6 w-6" />,
-      description: 'SGBV documentaries amplifying survivor voices and driving preventive, community-led advocacy.',
-      delayMs: 300,
+      icon: <Eye className="h-6 w-6" />,
+      description: 'Citizens guided through legal processes and rights awareness via direct consultations and counselling sessions.',
+      delayMs: 200,
     },
     {
-      label: 'Child Reunited',
+      label: 'Advocacy',
       target: 1,
       suffix: '',
       icon: <Heart className="h-6 w-6" />,
-      description: 'A child restored to her mother after over 10 months of denied access, through legal and mediation channels.',
-      delayMs: 500,
+      description: 'Targeted advocacy intervention advancing systemic policy change and institutional accountability.',
+      delayMs: 300,
     },
     {
-      label: 'Trial Watch',
-      target: 0,
+      label: 'Support',
+      target: 5,
       suffix: '',
-      staticValue: 'ACJA 2015',
-      icon: <Eye className="h-6 w-6" />,
-      description: 'Court proceedings monitored for transparency and compliance with the Administration of Criminal Justice Act 2015.',
-      delayMs: 700,
+      icon: <Shield className="h-6 w-6" />,
+      description: 'Individuals supported through psychosocial, community, and ancillary justice services.',
+      delayMs: 400,
+    },
+    {
+      label: 'Media Publications',
+      target: 2,
+      suffix: '',
+      icon: <Film className="h-6 w-6" />,
+      description: 'Published reports and media pieces amplifying justice issues and driving public accountability.',
+      delayMs: 500,
     },
   ];
 
@@ -125,7 +132,7 @@ export const ImpactStats: React.FC = () => {
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8">
           {statsList.map((stat, idx) => (
             <AnimatedCounter key={idx} {...stat} />
           ))}
