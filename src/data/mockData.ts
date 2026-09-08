@@ -182,6 +182,198 @@ export const courtReports: CourtReport[] = [
 
 export const newsArticles: NewsArticle[] = [
   {
+    id: 'news-7',
+    title: "August Police Monitoring: EJI Raises Concern Over Prolonged Detention and Rising Sexual Offence Cases",
+    excerpt: "Monitoring visits to police detention facilities across the Federal Capital Territory in August 2026 found suspects held beyond the statutory period without valid remand orders, only one detainee with access to a lawyer, and a rise in allegations of sexual offences involving minors.",
+    content: `August Police Monitoring: EJI Raises Concern Over Prolonged Detention and Rising Sexual Offence Cases
+
+Bernard Daniel
+
+Monitoring visits to police detention facilities across the Federal Capital Territory in August 2026 have raised fresh concerns over suspects being held beyond the statutory period without valid remand orders, limited access to legal representation and an increase in allegations of sexual offences involving minors.
+
+The monitoring exercise was conducted by the Administration of Criminal Justice Monitoring Committee (ACJMC), alongside Equal Justice Initiative (EJI),Citizens' Gavel, the Asabe Waziri Justice Advocacy Initiative (AWJAI) and representatives of the Nigerian Bar Association.
+
+The visits formed part of ongoing efforts to promote compliance with the Administration of Criminal Justice Act (ACJA) 2015 and ensure that persons arrested and detained by the police are afforded their rights under the law.
+
+Lugbe Visit Could Not Hold
+
+On Friday, 14 August 2026, the monitoring team visited the Lugbe Police Division. However, the exercise could not proceed because the Magistrate required for the visit was unavailable.
+
+Karu: Magistrate Orders Release and Calls for Lawful Detention
+
+On Monday, 24 August, the team visited the Karu Police Division under the leadership of His Worship, Haruna A. Haruna.
+
+Two detainees were found in custody over allegations relating to receiving stolen property. Both had reportedly been arrested on 21 August and had remained in custody beyond the statutory period.
+
+The police explained that investigations were ongoing and that the matter had been transferred from the Area Command to the station.
+
+The monitoring team subsequently proceeded to the Karu Area Command to establish the status of the investigation.
+
+The team at the Nyanya/ Karu Police Area Command with the 2ic Area Command.
+
+Following a review of the cases, the Magistrate directed that one suspect be released unconditionally on bail once his account had been verified. In relation to the second suspect, the police were directed to either charge him before the court or obtain a valid remand order if further detention was required.
+
+The Magistrate also admonished investigating officers on the importance of following the lawful remand process, stressing that suspects should not be kept in detention indefinitely simply because investigations are ongoing.
+
+The Karu Police Division was also observed to be undergoing painting and minor renovation works, giving the station an improved external appearance. However, the detention cells still require further attention.
+
+Nyanya: Six Suspects Found in Custody
+
+The team also visited the Nyanya Police Division on 24 August, where six suspects were found in detention over allegations including criminal breach of trust, theft and armed robbery.
+
+Three of the six suspects had been detained beyond the statutory 48-hour period.
+
+The Magistrate admitted three suspects to bail, with conditions tailored to the circumstances of two of the cases. In respect of the third suspect, the Magistrate directed that the person either be released on bail on the next working day or brought before the court.
+
+The remaining three suspects were ordered to be arraigned before the court immediately.
+
+Like Karu, the Nyanya Police Division had undergone some external painting and minor renovation. However, the condition of the detention cells remained an area requiring attention.
+
+Bwari: Cases Involving Minors Raise Concern
+
+On Monday, 31 August, the monitoring team, led by Her Worship, Nonye Okonkwo, visited the Bwari Police Division.
+
+Four detainees were reviewed.
+
+Mr M, aged 24, had been arrested on 26 August over an allegation of abduction and rape involving a 17-year-old. The police indicated that the case was to be transferred to the Force Criminal Investigation Department (FCID) and subsequently taken to court.
+
+A, arrested on 28 August, was also being held over an allegation involving a minor. The police indicated that the matter was to be transferred to the State CID.
+
+In both cases, the Magistrate noted concerns regarding continued detention beyond the lawful period and the need for a valid remand order where further detention was required.
+
+A third detainee, Mr E, aged 26, had been arrested on 29 August over an allegation of rape involving a 15-year-old and was expected to be transferred to the State CID.
+
+The fourth detainee, KC, aged 30, was arrested on 30 August. Following a review of his case, the Magistrate directed that he be released on bail, noting that the circumstances appeared to relate to a breach of contract rather than a criminal breach of trust.
+
+Ushafa: Six Detainees Reviewed
+
+At the Ushafa Police Division, six detainees were reviewed.
+
+EfeAdi, aged 26, was arrested on 27 August over an allegation of theft. The Magistrate directed that the suspect be charged to court immediately.
+
+Ham, aged 23, was arrested on 29 August over an allegation of theft. He was directed to be charged to court or released on bail.
+
+Vico, aged 25, arrested on 26 August over allegations involving theft and armed robbery, was directed to be charged to court.
+
+Muma, aged 25, had reportedly been in custody for approximately one week over an allegation of theft. The Magistrate directed that he be charged to court the following morning.
+
+Abuq, aged 20, was arrested on 31 August over an allegation of rape of a minor and alleged impregnation of the complainant. The monitoring team was informed that the parents of the alleged victim had not been forthcoming in pursuing the complaint.
+
+The Magistrate directed that the suspect be kept for 48 hours and released if the complainant did not come forward thereafter.
+
+Ucwyi, aged 32, was arrested on 30 August over an allegation of theft and was also directed to be charged to court.
+
+Legal Representation Remains a Concern
+
+Beyond the individual cases, the monitoring exercise revealed a significant gap in access to legal representation.
+
+Only one suspect encountered during the visits had access to a legal representative. The other detainees had no legal representation and, based on the information available to the monitoring team, had not been adequately informed by the police of their legal options before the monitoring visits.
+
+For EJI, access to legal assistance is an important safeguard in protecting suspects from unlawful detention and ensuring that they understand the allegations against them, their rights and the available avenues for defence.
+
+Rising Concerns Over Prolonged Detention and Sexual Offences
+
+The August visits revealed an increase in the number of persons found in detention beyond the statutory period without valid remand orders.
+
+While investigations may require additional time, continued detention must be supported by due process and the appropriate legal authority. The recurring reliance on ongoing investigations as a basis for prolonged detention underscores the need for investigating officers to understand and utilise the lawful remand procedure where further detention is necessary.
+
+The monitoring team also observed a concerning number of allegations involving sexual offences, particularly cases affecting minors.
+
+These cases reinforce the urgent need for families, communities, institutions and justice sector actors to intensify efforts to prevent and respond to sexual and gender-based violence. The protection of children must remain a collective responsibility, supported by timely investigations, appropriate safeguards and effective access to justice.
+
+EJI Commends Judicial Guidance
+
+The Equal Justice Initiative commends the Magistrates who took time during the monitoring visits to guide investigating officers on the requirements of lawful detention and the importance of obtaining remand orders where necessary.
+
+The Magistrates also used the visits as an opportunity to explain relevant legal protections, including provisions relating to children, while reminding suspects of their rights and available legal options.
+
+Such engagement is important in strengthening understanding of the law among law enforcement officers and ensuring that detention does not become a substitute for due process.
+
+The Road Ahead
+
+The August monitoring exercise demonstrates the continued importance of independent monitoring of police detention facilities.
+
+For EJI and its partners, the objective is not simply to count persons in custody. It is to ensure that every person detained is treated within the boundaries of the law and that cases move through the justice system without unnecessary delay.
+
+Where investigations are complete, suspects should be charged. Where there is insufficient basis for continued detention, suspects should be released. Where further detention is legally necessary, the appropriate remand process must be followed.
+
+Equal Justice Initiative remains committed to working with the police, Magistrates, lawyers, civil society organisations and other justice sector stakeholders to promote lawful detention, access to legal representation, fair hearing and respect for the rights of suspects.
+
+The criminal justice system must protect society from crime while equally protecting individuals from arbitrary detention and violations of due process. Justice requires both.
+
+NB: Suspects real names have been altered to protect their privacy and fundamental rights to presumption of innocence duly guaranteed under the Nigerian Constitution`,
+    author: 'Bernard Daniel',
+    date: 'September 8, 2026',
+    readTime: '7 min read',
+    imageUrl: '/images/august-police-monitoring/image6.jpg',
+    category: 'Blog posts',
+    contentHTML: `
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">August Police Monitoring: EJI Raises Concern Over Prolonged Detention and Rising Sexual Offence Cases</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Monitoring visits to police detention facilities across the Federal Capital Territory in August 2026 have raised fresh concerns over suspects being held beyond the statutory period without valid remand orders, limited access to legal representation and an increase in allegations of sexual offences involving minors.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The monitoring exercise was conducted by the Administration of Criminal Justice Monitoring Committee (ACJMC), alongside Equal Justice Initiative (EJI),Citizens&#x27; Gavel, the Asabe Waziri Justice Advocacy Initiative (AWJAI) and representatives of the Nigerian Bar Association.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The visits formed part of ongoing efforts to promote compliance with the Administration of Criminal Justice Act (ACJA) 2015 and ensure that persons arrested and detained by the police are afforded their rights under the law.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Lugbe Visit Could Not Hold</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">On Friday, 14 August 2026, the monitoring team visited the Lugbe Police Division. However, the exercise could not proceed because the Magistrate required for the visit was unavailable.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Karu: Magistrate Orders Release and Calls for Lawful Detention</strong></h4>
+<img src="/images/august-police-monitoring/image6.jpg" alt="Monitoring team outside the Karu Divisional Headquarters of the Nigeria Police Force, FCT Command, Abuja" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">On Monday, 24 August, the team visited the Karu Police Division under the leadership of His Worship, Haruna A. Haruna.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Two detainees were found in custody over allegations relating to receiving stolen property. Both had reportedly been arrested on 21 August and had remained in custody beyond the statutory period.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The police explained that investigations were ongoing and that the matter had been transferred from the Area Command to the station.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The monitoring team subsequently proceeded to the Karu Area Command to establish the status of the investigation.</p>
+<img src="/images/august-police-monitoring/image4.jpg" alt="The monitoring team at the Nyanya/Karu Police Area Command with the 2ic Area Command" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="-mt-8 mb-10 text-xs sm:text-sm text-slate-500 italic text-center">The team at the Nyanya/ Karu Police Area Command with the 2ic Area Command.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Following a review of the cases, the Magistrate directed that one suspect be released unconditionally on bail once his account had been verified. In relation to the second suspect, the police were directed to either charge him before the court or obtain a valid remand order if further detention was required.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The Magistrate also admonished investigating officers on the importance of following the lawful remand process, stressing that suspects should not be kept in detention indefinitely simply because investigations are ongoing.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The Karu Police Division was also observed to be undergoing painting and minor renovation works, giving the station an improved external appearance. However, the detention cells still require further attention.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Nyanya: Six Suspects Found in Custody</strong></h4>
+<img src="/images/august-police-monitoring/image2.jpg" alt="Monitoring team outside the Nyanya Police Division" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The team also visited the Nyanya Police Division on 24 August, where six suspects were found in detention over allegations including criminal breach of trust, theft and armed robbery.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Three of the six suspects had been detained beyond the statutory 48-hour period.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The Magistrate admitted three suspects to bail, with conditions tailored to the circumstances of two of the cases. In respect of the third suspect, the Magistrate directed that the person either be released on bail on the next working day or brought before the court.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The remaining three suspects were ordered to be arraigned before the court immediately.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Like Karu, the Nyanya Police Division had undergone some external painting and minor renovation. However, the condition of the detention cells remained an area requiring attention.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Bwari: Cases Involving Minors Raise Concern</strong></h4>
+<img src="/images/august-police-monitoring/image1.jpg" alt="Monitoring team outside the Bwari Police Division headquarters" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">On Monday, 31 August, the monitoring team, led by Her Worship, Nonye Okonkwo, visited the Bwari Police Division.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Four detainees were reviewed.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Mr M, aged 24, had been arrested on 26 August over an allegation of abduction and rape involving a 17-year-old. The police indicated that the case was to be transferred to the Force Criminal Investigation Department (FCID) and subsequently taken to court.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">A, arrested on 28 August, was also being held over an allegation involving a minor. The police indicated that the matter was to be transferred to the State CID.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">In both cases, the Magistrate noted concerns regarding continued detention beyond the lawful period and the need for a valid remand order where further detention was required.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">A third detainee, Mr E, aged 26, had been arrested on 29 August over an allegation of rape involving a 15-year-old and was expected to be transferred to the State CID.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The fourth detainee, KC, aged 30, was arrested on 30 August. Following a review of his case, the Magistrate directed that he be released on bail, noting that the circumstances appeared to relate to a breach of contract rather than a criminal breach of trust.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Ushafa: Six Detainees Reviewed</strong></h4>
+<img src="/images/august-police-monitoring/image3.jpg" alt="Monitoring team outside the Ushafa Police Division headquarters" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">At the Ushafa Police Division, six detainees were reviewed.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">EfeAdi, aged 26, was arrested on 27 August over an allegation of theft. The Magistrate directed that the suspect be charged to court immediately.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Ham, aged 23, was arrested on 29 August over an allegation of theft. He was directed to be charged to court or released on bail.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Vico, aged 25, arrested on 26 August over allegations involving theft and armed robbery, was directed to be charged to court.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Muma, aged 25, had reportedly been in custody for approximately one week over an allegation of theft. The Magistrate directed that he be charged to court the following morning.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Abuq, aged 20, was arrested on 31 August over an allegation of rape of a minor and alleged impregnation of the complainant. The monitoring team was informed that the parents of the alleged victim had not been forthcoming in pursuing the complaint.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The Magistrate directed that the suspect be kept for 48 hours and released if the complainant did not come forward thereafter.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Ucwyi, aged 32, was arrested on 30 August over an allegation of theft and was also directed to be charged to court.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Legal Representation Remains a Concern</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Beyond the individual cases, the monitoring exercise revealed a significant gap in access to legal representation.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Only one suspect encountered during the visits had access to a legal representative. The other detainees had no legal representation and, based on the information available to the monitoring team, had not been adequately informed by the police of their legal options before the monitoring visits.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">For EJI, access to legal assistance is an important safeguard in protecting suspects from unlawful detention and ensuring that they understand the allegations against them, their rights and the available avenues for defence.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Rising Concerns Over Prolonged Detention and Sexual Offences</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The August visits revealed an increase in the number of persons found in detention beyond the statutory period without valid remand orders.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">While investigations may require additional time, continued detention must be supported by due process and the appropriate legal authority. The recurring reliance on ongoing investigations as a basis for prolonged detention underscores the need for investigating officers to understand and utilise the lawful remand procedure where further detention is necessary.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The monitoring team also observed a concerning number of allegations involving sexual offences, particularly cases affecting minors.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">These cases reinforce the urgent need for families, communities, institutions and justice sector actors to intensify efforts to prevent and respond to sexual and gender-based violence. The protection of children must remain a collective responsibility, supported by timely investigations, appropriate safeguards and effective access to justice.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">EJI Commends Judicial Guidance</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The Equal Justice Initiative commends the Magistrates who took time during the monitoring visits to guide investigating officers on the requirements of lawful detention and the importance of obtaining remand orders where necessary.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The Magistrates also used the visits as an opportunity to explain relevant legal protections, including provisions relating to children, while reminding suspects of their rights and available legal options.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Such engagement is important in strengthening understanding of the law among law enforcement officers and ensuring that detention does not become a substitute for due process.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">The Road Ahead</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The August monitoring exercise demonstrates the continued importance of independent monitoring of police detention facilities.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">For EJI and its partners, the objective is not simply to count persons in custody. It is to ensure that every person detained is treated within the boundaries of the law and that cases move through the justice system without unnecessary delay.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Where investigations are complete, suspects should be charged. Where there is insufficient basis for continued detention, suspects should be released. Where further detention is legally necessary, the appropriate remand process must be followed.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Equal Justice Initiative remains committed to working with the police, Magistrates, lawyers, civil society organisations and other justice sector stakeholders to promote lawful detention, access to legal representation, fair hearing and respect for the rights of suspects.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The criminal justice system must protect society from crime while equally protecting individuals from arbitrary detention and violations of due process. Justice requires both.</p>
+<p class="mt-14 pt-6 border-t border-slate-200 text-sm italic text-slate-500"><em>NB: Suspects real names have been altered to protect their privacy and fundamental rights to presumption of innocence duly guaranteed under the Nigerian Constitution </em></p>
+`
+  },
+  {
     id: 'news-6',
     title: "Policy Review: What the New Armed Forces Salary Increase Means for Nigeria's Security and Public Accountability",
     excerpt: "President Bola Tinubu has approved a salary increase of between 30% and 80% for personnel of the Nigerian Armed Forces. EJI examines the fiscal implications, institutional challenges, and what transparent implementation demands.",
