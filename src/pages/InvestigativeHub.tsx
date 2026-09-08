@@ -2,7 +2,6 @@ import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { newsArticles } from '../data/mockData';
 import { Search, Calendar, User, ArrowRight } from 'lucide-react';
-import { motion } from 'framer-motion';
 import { Seo } from '../components/Seo';
 import { PAGE_SEO } from '../seoConfig';
 
@@ -85,12 +84,8 @@ export const InvestigativeHub: React.FC = () => {
         {/* Articles List */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredArticles.map((article) => (
-            <motion.article
+            <article
               key={article.id}
-              initial={{ opacity: 0, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4 }}
               className="bg-white border border-slate-200 rounded-2xl overflow-hidden hover:border-slate-300 transition-all duration-300 flex flex-col justify-between group"
             >
               <div>
@@ -143,7 +138,7 @@ export const InvestigativeHub: React.FC = () => {
                 </Link>
               </div>
 
-            </motion.article>
+            </article>
           ))}
         </div>
 
