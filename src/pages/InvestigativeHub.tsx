@@ -12,7 +12,7 @@ export const InvestigativeHub: React.FC = () => {
   const CATEGORIES = [
     'All',
     'Blog posts',
-    'ACJA Oversight',
+    'ACJMC Oversight',
     'News/ Press Releases',
     'Investigations',
     'Trial Watch',

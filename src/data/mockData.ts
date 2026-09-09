@@ -306,7 +306,7 @@ NB: Suspects real names have been altered to protect their privacy and fundament
     date: 'September 8, 2026',
     readTime: '7 min read',
     imageUrl: '/images/august-police-monitoring/image6.jpg',
-    category: 'Blog posts',
+    category: 'ACJMC Oversight',
     contentHTML: `
 <h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">August Police Monitoring: EJI Raises Concern Over Prolonged Detention and Rising Sexual Offence Cases</strong></h4>
 <p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Monitoring visits to police detention facilities across the Federal Capital Territory in August 2026 have raised fresh concerns over suspects being held beyond the statutory period without valid remand orders, limited access to legal representation and an increase in allegations of sexual offences involving minors.</p>
@@ -425,7 +425,7 @@ NB: Suspects real names have been altered to protect their privacy and fundament
     date: 'August 1, 2026',
     readTime: '6 min read',
     imageUrl: '/field-report-june-july-2026.jpg',
-    category: 'ACJA Oversight',
+    category: 'ACJMC Oversight',
     contentHTML: `
 <h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Overview of Equal Justice Initiative Monitoring Visits (June-July 2026)</strong></h4>
 <p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Between June and July 2026, Equal Justice Initiative (Nigeria)  participated in a series of detention monitoring visits across police divisions and other detention facilities within the Federal Capital Territory (FCT) interviewing 50 detainees and observing approximately 100 migrants. </p>
