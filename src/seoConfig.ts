@@ -52,12 +52,6 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     description:
       'Get in touch with the Equal Justice Initiative — report an abuse, volunteer your professional hours, or support our work. Based in Abuja, Nigeria.',
   },
-  trialWatch: {
-    path: '/trial-watch',
-    title: 'Trial Watch | Equal Justice Initiative (EJI)',
-    description:
-      'EJI monitors court proceedings to promote transparency and compliance with the Administration of Criminal Justice Act (ACJA) 2015 and deter judicial abuse.',
-  },
   newsroom: {
     path: '/newsroom',
     title: 'Newsroom & Investigative Reporting | Equal Justice Initiative',

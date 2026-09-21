@@ -108,7 +108,7 @@ export const ImpactStats: React.FC = () => {
     },
     {
       label: 'Media Publications',
-      target: 2,
+      target: 3,
       suffix: '',
       icon: <Film className="h-6 w-6" />,
       description: 'Published reports and media pieces amplifying justice issues and driving public accountability.',

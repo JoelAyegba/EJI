@@ -93,7 +93,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-sans font-bold text-sm uppercase tracking-widest mb-6">Stay Informed</h3>
             <p className="text-sm text-slate-300 mb-4 leading-relaxed">
-              Subscribe to receive weekly trial monitoring reports, investigative releases, and campaign briefs.
+              Subscribe to receive our monitoring reports, investigative releases, and campaign briefs.
             </p>
             <form onSubmit={handleSubscribe} className="space-y-2.5">
               <div className="relative">

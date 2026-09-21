@@ -13,28 +13,28 @@ export const AboutEJI: React.FC = () => {
       icon: <Scale className="h-6 w-6 text-advocacy-gold" />,
       desc: 'Our legal desk represents unlawfully detained citizens, challenges unconstitutional detention practices, and campaigns for systemic judicial bail reforms.',
       bullets: [
-        'Over 200 volunteer lawyers across 12 states.',
+        'A volunteer lawyer network connecting counsel with indigent defendants.',
         'Direct representation for victims of Gender-Based Violence (GBV).',
-        'Filing strategic appeals to establish landmark human rights precedents.'
+        'Pressing for bail and lawful remand where detention exceeds the statutory period.'
       ]
     },
     media: {
       title: 'Investigative Media & Storytelling',
       icon: <Film className="h-6 w-6 text-advocacy-gold" />,
-      desc: 'We use documentaries and investigative reporting to document real stories, putting faces to judicial delays and capturing systemic exploitation on camera.',
+      desc: 'We use reporting and visual storytelling to document real cases, putting faces to judicial delay and recording conditions inside detention facilities.',
       bullets: [
-        'In-depth video exposés on prison overcrowding and police extortion.',
-        'Interactive newsroom showcasing raw courtroom audit logs.',
-        'Cinematic documentaries triggering national human rights debates.'
+        'Published field reports on detention conditions and police practice.',
+        'A public newsroom carrying our monitoring findings in full.',
+        'Building a documentary practice to record human rights violations.'
       ]
     },
     accountability: {
       title: 'Social Accountability & Trial Watch',
       icon: <ShieldAlert className="h-6 w-6 text-advocacy-gold" />,
-      desc: 'We audit the courts to ensure transparency. By tracking session delays and judges behavior, we publish civic audits that push back on backroom deals.',
+      desc: 'We monitor courts and police detention facilities alongside the Administration of Criminal Justice Monitoring Committee, and publish what we find.',
       bullets: [
-        'Courtroom observers audit daily proceedings in major litigation.',
-        'Publishing the weekly Trial Transparency Index scorecard.',
+        'Monitoring visits to police divisions across the Federal Capital Territory.',
+        'Publishing findings on detention beyond the statutory period.',
         'Equipping citizens with channels to report corruption and bribe demands.'
       ]
     },
@@ -43,9 +43,9 @@ export const AboutEJI: React.FC = () => {
       icon: <Award className="h-6 w-6 text-advocacy-gold animate-pulse" />,
       desc: 'EJI operates where Law, Media, and Social Accountability meet. Exposing corruption (Media) and auditing court delays (Accountability) is paired directly with free courtroom representation (Law) to secure concrete freedom.',
       bullets: [
-        'A comprehensive human rights shield combining reporting and actions.',
-        'Proven record of securing bail, policy reviews, and asset recoveries.',
-        'Building Africa’s premier model for collaborative civic tech legal hubs.'
+        'A comprehensive human rights shield combining reporting and action.',
+        'Securing bail and lawful remand, and publishing policy review.',
+        'Working with partners across the justice sector to hold the system to account.'
       ]
     }
   };

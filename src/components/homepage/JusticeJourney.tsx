@@ -9,7 +9,6 @@ interface JourneyStep {
   icon: React.ReactNode;
   description: string;
   example: string;
-  metrics: string;
 }
 
 export const JusticeJourney: React.FC = () => {
@@ -22,8 +21,7 @@ export const JusticeJourney: React.FC = () => {
       subtitle: 'Citizen Submission',
       icon: <FileText className="h-6 w-6" />,
       description: 'A victim, family member, or whistleblower submits details of an unlawful detention, extortion incident, or rights violation through EJI\'s secure web form or hotline.',
-      example: 'A relative submits details of a young driver held for three weeks in a local cell without charges or access to phone calls.',
-      metrics: 'Average response: < 24 hours'
+      example: 'A relative submits details of a young driver held for three weeks in a local cell without charges or access to phone calls.'
     },
     {
       id: 2,
@@ -31,8 +29,7 @@ export const JusticeJourney: React.FC = () => {
       subtitle: 'Verification & Audits',
       icon: <Search className="h-6 w-6" />,
       description: 'EJI\'s legal experts audit the court files while our investigative journalists verify statements, cross-reference detention logs, and compile evidence.',
-      example: 'Court monitoring observers locate the specific case file and confirm the magistrate lack of jurisdiction to hold the citizen.',
-      metrics: 'Verifications completed: 92%'
+      example: 'Court monitoring observers locate the specific case file and confirm the magistrate lack of jurisdiction to hold the citizen.'
     },
     {
       id: 3,
@@ -40,8 +37,7 @@ export const JusticeJourney: React.FC = () => {
       subtitle: 'Shining a Light',
       icon: <Megaphone className="h-6 w-6" />,
       description: 'Once verified, the case is published as an investigative expose or featured in a video documentary, generating community focus and civic accountability.',
-      example: 'A mini-documentary detailing the illegal holding is released, garnering 250,000 views and triggering a judicial panel inquiry.',
-      metrics: 'Direct public reach: 15M+'
+      example: 'The verified case is published as an investigative report, bringing public attention to the detention.'
     },
     {
       id: 4,
@@ -49,8 +45,7 @@ export const JusticeJourney: React.FC = () => {
       subtitle: 'Courtroom Action',
       icon: <Scale className="h-6 w-6" />,
       description: 'EJI pro bono lawyers file bail applications, initiate habeas corpus proceedings, or file formal constitutional petitions directly on behalf of the victim.',
-      example: 'An EJI human rights attorney files an emergency motion in Lagos High Court demanding the immediate release of the citizen.',
-      metrics: 'Active pro-bono network: 200+ lawyers'
+      example: 'An EJI human rights attorney files an emergency motion in Lagos High Court demanding the immediate release of the citizen.'
     },
     {
       id: 5,
@@ -58,8 +53,7 @@ export const JusticeJourney: React.FC = () => {
       subtitle: 'Tangible Resolution',
       icon: <CheckCircle className="h-6 w-6" />,
       description: 'The detainee is released, illegal charges are quashed, victims are rehabilitated, or corrupt actors are held accountable by judicial authorities.',
-      example: 'The High Court orders immediate release, awards damages for illegal detention, and transfers the corrupt magistrate to an audit review.',
-      metrics: 'Citizens freed: 3,420+'
+      example: 'The High Court orders immediate release, awards damages for illegal detention, and transfers the corrupt magistrate to an audit review.'
     }
   ];
 
@@ -153,19 +147,17 @@ export const JusticeJourney: React.FC = () => {
                     {steps[activeStep].description}
                   </p>
 
-                  {/* Real-world Example Box */}
+                  {/* Illustrative walkthrough of the process (not a real case record) */}
                   <div className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 space-y-2">
                     <h4 className="text-slate-200 text-xs uppercase tracking-widest font-bold font-sans">
-                      Case File Walkthrough:
+                      How This Works In Practice:
                     </h4>
                     <p className="text-xs sm:text-sm text-slate-300 font-sans leading-relaxed italic">
-                      "{steps[activeStep].example}"
+                      {steps[activeStep].example}
                     </p>
                   </div>
 
-                  {/* Pipeline Performance Metrics */}
-                  <div className="pt-4 flex items-center justify-between text-xs text-slate-400 border-t border-white/10">
-                    <span className="font-mono">Metric: {steps[activeStep].metrics}</span>
+                  <div className="pt-4 flex items-center justify-end text-xs text-slate-400 border-t border-white/10">
                     {activeStep < steps.length - 1 ? (
                       <button
                         onClick={() => setActiveStep(activeStep + 1)}

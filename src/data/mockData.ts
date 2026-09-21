@@ -4,36 +4,9 @@ export interface FocusArea {
   shortDesc: string;
   longDesc: string;
   iconName: string;
-  stats: string;
-  impactMetrics: string[];
 }
 
 
-
-export interface ImpactStory {
-  id: string;
-  title: string;
-  category: string;
-  summary: string;
-  fullStory: string;
-  date: string;
-  location: string;
-  imageUrl: string;
-  impactText: string;
-}
-
-export interface CourtReport {
-  id: string;
-  caseName: string;
-  court: string;
-  judge: string;
-  status: 'Ongoing' | 'Resolved' | 'Adjourned';
-  dateObserved: string;
-  observerNotes: string;
-  transparencyScore: number; // out of 100
-  category: string;
-  contentHTML?: string;
-}
 
 export interface TeamMember {
   id: string;
@@ -63,122 +36,40 @@ export const focusAreas: FocusArea[] = [
     id: 'gender-equality',
     title: 'Gender Equality',
     shortDesc: 'Advocating against gender-based violence, protecting child brides, and securing economic equality.',
-    longDesc: 'EJI operates a dedicated gender justice desk that provides free legal representation to victims of gender-based violence (GBV), challenges discriminatory customary laws in court, and campaigns for gender-inclusive legislative reforms across West Africa.',
-    iconName: 'Scale',
-    stats: '1,200+ Cases Handled',
-    impactMetrics: ['85% Case resolution rate for survivors of abuse', '15 Policy briefs submitted on Child Rights Act adoption', '5 Free community shelters supported']
+    longDesc: 'EJI works to protect women and children from abuse, harmful practices and neglect. Through solution-based advocacy and media campaigns, we push for enforcement of the Child’s Rights Act and support survivors of gender-based violence in accessing legal remedies.',
+    iconName: 'Scale'
   },
   {
     id: 'trial-watch',
     title: 'Trial Watch',
-    shortDesc: 'Monitoring high-profile public interest litigation to ensure judicial transparency and fair trials.',
-    longDesc: 'Our specialized Trial Watch observers sit in courtrooms daily. We deploy technology and legal experts to monitor anti-corruption cases, human rights trials, and citizen prosecutions, exposing delays, bribery, and procedural violations.',
-    iconName: 'Eye',
-    stats: '450+ Trials Monitored',
-    impactMetrics: ['450 Court sessions independently audited', 'Weekly transparency indexes published', 'Corrupt practices exposed in 12 jurisdictions']
+    shortDesc: 'Monitoring court proceedings and police detention to promote transparency and fair hearing.',
+    longDesc: 'EJI monitors court proceedings and police detention facilities alongside the Administration of Criminal Justice Monitoring Committee and partner organisations, documenting compliance with the Administration of Criminal Justice Act and reporting findings publicly.',
+    iconName: 'Eye'
   },
   {
     id: 'documentaries',
     title: 'Documentary Storytelling',
-    shortDesc: 'Producing high-impact documentary films that expose systemic abuse and drive legal action.',
-    longDesc: 'We believe in the power of visual media. By combining journalism with legal insights, EJI produces investigative films and mini-documentaries that capture the human faces behind courtroom statistics, forcing public action and accountability.',
-    iconName: 'Film',
-    stats: '25+ Films Produced',
-    impactMetrics: ['3 International awards for human rights storytelling', '15 Million+ cumulative digital views', 'Direct legislative hearings triggered by 2 documentaries']
+    shortDesc: 'Using visual storytelling to document human rights violations and support advocacy.',
+    longDesc: 'EJI is developing a documentary practice that harnesses visual storytelling to record human rights violations — evidence of injustice that doubles as a tool for advocacy and public education.',
+    iconName: 'Film'
   },
   {
     id: 'pro-bono',
     title: 'Pro Bono Services',
     shortDesc: 'Providing free legal aid and representation to indigent and unlawfully detained citizens.',
-    longDesc: 'Thousands languish in prison awaiting trial without legal representation. Our network of pro bono lawyers works directly with penitentiaries to secure bail, contest illegal detentions, and represent marginalized individuals.',
-    iconName: 'Shield',
-    stats: '3,400+ Citizens Freed',
-    impactMetrics: ['3,400+ Unlawfully detained persons released', '200+ Active volunteer lawyers across Nigeria', '24/7 Hotlines active for urgent legal assistance']
+    longDesc: 'Many people are held awaiting trial without legal representation. EJI bridges that gap by connecting volunteer lawyers with indigent defendants and victims of rights violations, working to secure bail and contest unlawful detention.',
+    iconName: 'Shield'
   },
   {
     id: 'investigative-reporting',
     title: 'Investigative Reporting',
     shortDesc: 'Uncovering corruption, police brutality, and systemic rights violations in vulnerable communities.',
-    longDesc: 'EJI operates a newsroom of courageous investigative journalists. We shine a light on police extortion, unlawful detention centers, corporate environmental violations, and misappropriation of funds meant for civic development.',
-    iconName: 'FileText',
-    stats: '120+ Exposés Published',
-    impactMetrics: ['120+ Investigative stories published', '4 Public judicial panels set up following exposes', 'Collaborative reporting with premium global outlets']
+    longDesc: 'EJI uses field investigation and public records to examine unlawful detention, police extortion and the misappropriation of public funds, publishing its findings to inform civic engagement and drive policy reform.',
+    iconName: 'FileText'
   }
 ];
 
 
-
-export const impactStories: ImpactStory[] = [
-  {
-    id: 'story-1',
-    title: 'A Decade in Pre-trial Detention: The Story of Samuel',
-    category: 'Detainee Release',
-    summary: 'Samuel was arrested at age 17 on an unsubstantiated charge. He spent 10 years in medium-security prison without a single trial session.',
-    fullStory: 'Samuel was rounded up during a street sweep in Lagos in 2014. Incapable of hiring legal representation, he was held on remand. EJI pro bono attorney Amina Yusuf discovered Samuel during an audit triggered by the documentary "Behind The Bars". Within six weeks, we secured an unconditional release and a rehabilitation package for Samuel, who is now training to become a legal secretary.',
-    date: 'March 2025',
-    location: 'Lagos, Nigeria',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80',
-    impactText: 'Unconditional release secured, full psychological rehabilitation & career mentorship provided.'
-  },
-  {
-    id: 'story-2',
-    title: 'Rescuing Halima: Child Rights Intervention',
-    category: 'Child Rights',
-    summary: 'Preventing the forced early marriage of a 14-year-old girl and securing her education through legal injunction and community advocacy.',
-    fullStory: 'In Kaduna State, Halima was scheduled for forced marriage. An anonymous tip reached EJI\'s human rights reporting desk. Working with local child advocates and the Ministry of Justice, EJI secured a legal restraining order based on the Child Rights Act. Today, Halima is the top-performing student in her secondary school, with her educational fees fully sponsored by EJI donors.',
-    date: 'November 2024',
-    location: 'Kaduna, Nigeria',
-    imageUrl: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80',
-    impactText: 'Forced marriage legally halted, 5-year academic scholarship secured.'
-  },
-  {
-    id: 'story-3',
-    title: 'Trial Watch Exposes Bribery in Municipal Audit Case',
-    category: 'Trial Watch',
-    summary: 'An EJI observer\'s notes exposed backroom negotiations between a defense lawyer and court clerk, leading to a trial transfer.',
-    fullStory: 'During the state prosecution of an official accused of diverting local health clinic funds, EJI court monitor Joshua Umoh noticed suspicious private meetings between court staff and defense counsel. EJI filed a formal petition backed by recorded observer logs. The chief judge reassigned the case, and the official was eventually convicted and sentenced to 7 years in prison, with the diverted funds recovered.',
-    date: 'January 2025',
-    location: 'Abuja, Nigeria',
-    imageUrl: 'https://images.unsplash.com/photo-1453733190148-c44698c265f8?auto=format&fit=crop&w=800&q=80',
-    impactText: 'Corruption exposed, trial transfer ordered, $120,000 public funds recovered.'
-  }
-];
-
-export const courtReports: CourtReport[] = [
-  {
-    id: 'case-101',
-    caseName: 'State vs. Inspector Godwin & Ors',
-    court: 'Federal High Court, Abuja',
-    judge: 'Hon. Justice M. B. Bello',
-    status: 'Ongoing',
-    dateObserved: 'May 28, 2026',
-    observerNotes: 'Prosecution presented third witness, a forensic examiner. Defense cross-examined extensively. Notable delay observed in scheduling subsequent dates. Transparency level high but scheduling efficiency low.',
-    transparencyScore: 82,
-    category: 'Police Brutality'
-  },
-  {
-    id: 'case-102',
-    caseName: 'F.R.N. vs. Chief Ibrahim (Diversion of Health Funds)',
-    court: 'High Court of Lagos State',
-    judge: 'Hon. Justice O. A. Taiwo',
-    status: 'Resolved',
-    dateObserved: 'April 14, 2026',
-    observerNotes: 'Final judgment delivered. Accused found guilty on 4 of 6 counts of money laundering and embezzlement. Sentence: 7 years imprisonment. Full recovery of asset ordered.',
-    transparencyScore: 95,
-    category: 'Public Corruption'
-  },
-  {
-    id: 'case-103',
-    caseName: 'State vs. Beatrice Okoro (Protest Incarceration)',
-    court: 'Magistrate Court, Port Harcourt',
-    judge: 'Magistrate E. K. Johnson',
-    status: 'Adjourned',
-    dateObserved: 'May 12, 2026',
-    observerNotes: 'Adjourned due to failure of state counsel to present witnesses for the fourth consecutive time. EJI representative raised concern regarding systemic delay and denial of bail.',
-    transparencyScore: 45,
-    category: 'Freedom of Assembly'
-  }
-];
 
 export const newsArticles: NewsArticle[] = [
   {

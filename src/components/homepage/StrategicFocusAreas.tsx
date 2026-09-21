@@ -87,18 +87,6 @@ export const StrategicFocusAreas: React.FC = () => {
                         <p className="text-slate-650 text-sm leading-relaxed">
                           {area.longDesc}
                         </p>
-
-                        <div className="space-y-3">
-                          <h4 className="text-slate-800 text-xs uppercase tracking-wider font-bold">Pillar Impact Metrics:</h4>
-                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            {area.impactMetrics.map((metric, idx) => (
-                              <div key={idx} className="flex items-center space-x-2 text-xs text-slate-600">
-                                <span className="w-1.5 h-1.5 rounded-full bg-advocacy-gold shrink-0"></span>
-                                <span>{metric}</span>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
                       </motion.div>
                     )}
                   </AnimatePresence>
