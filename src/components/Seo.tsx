@@ -7,6 +7,8 @@ interface SeoProps {
   description: string;
   path: string;
   image?: string;
+  /** Keep the page out of search results (used by the 404 page). */
+  noindex?: boolean;
 }
 
 const toAbsolute = (url: string) => (url.startsWith('http') ? url : `${SITE_URL}${url}`);
@@ -15,7 +17,7 @@ const toAbsolute = (url: string) => (url.startsWith('http') ? url : `${SITE_URL}
  * Per-page SEO head tags. Rendered via vite-react-ssg's <Head>, so these end up
  * in each route's prerendered static HTML head (crawlable without JS).
  */
-export const Seo: React.FC<SeoProps> = ({ title, description, path, image = DEFAULT_OG_IMAGE }) => {
+export const Seo: React.FC<SeoProps> = ({ title, description, path, image = DEFAULT_OG_IMAGE, noindex = false }) => {
   const url = `${SITE_URL}${path === '/' ? '' : path}`;
   const ogImage = toAbsolute(image);
 
@@ -23,7 +25,7 @@ export const Seo: React.FC<SeoProps> = ({ title, description, path, image = DEFA
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={url} />
+      {noindex ? <meta name="robots" content="noindex, follow" /> : <link rel="canonical" href={url} />}
 
       {/* Open Graph */}
       <meta property="og:title" content={title} />

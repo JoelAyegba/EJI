@@ -1,5 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/trial-watch", "destination": "/newsroom", "permanent": true },
+    { "source": "/newsroom/news-1", "destination": "/newsroom", "permanent": true },
+    { "source": "/newsroom/news-2", "destination": "/newsroom", "permanent": true },
+    { "source": "/newsroom/news-3", "destination": "/newsroom", "permanent": true },
+    { "source": "/newsroom/news-4", "destination": "/newsroom", "permanent": true }
+  ]
 }

@@ -8,6 +8,7 @@ import { Team } from './pages/Team';
 import { Contact } from './pages/Contact';
 import { Donate } from './pages/Donate';
 import { PublicationDetail } from './pages/PublicationDetail';
+import { NotFound } from './pages/NotFound';
 import { newsArticles } from './data/mockData';
 
 export const routes: RouteRecord[] = [
@@ -27,6 +28,12 @@ export const routes: RouteRecord[] = [
         element: <PublicationDetail />,
         getStaticPaths: () => newsArticles.map(a => `newsroom/${a.id}`),
       },
+      // Prerendered to dist/404.html, which Vercel serves (with a 404 status)
+      // for any path that has no static file.
+      { path: '404', element: <NotFound /> },
+      // Client-side fallback, so in-app navigation to an unknown path renders
+      // the same page instead of an empty layout.
+      { path: '*', element: <NotFound /> },
     ],
   },
 ];
