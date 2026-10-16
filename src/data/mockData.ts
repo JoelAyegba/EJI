@@ -73,6 +73,156 @@ export const focusAreas: FocusArea[] = [
 
 export const newsArticles: NewsArticle[] = [
   {
+    id: 'news-8',
+    title: "EJI September 2026 Police Oversight Report: ACJMC Reviews Detainee Cases Across Abuja Police Divisions",
+    excerpt: "Equal Justice Initiative (EJI) together with The Administration of Criminal Justice Monitoring Committee (ACJMC), in collaboration with magistrates and other civil society organisations, conducted police oversight visits to several police divisions in Abuja during September 2026. The visits reviewed detainees’ cases, the allegations against them and the directives issued regarding their continued detention, release on bail, transfer for further investigation or arraignment in court.",
+    content: `EJI September 2026 Police Oversight Report: ACJMC Reviews Detainee Cases Across Abuja Police Divisions
+
+Equal Justice Initiative (EJI) together with The Administration of Criminal Justice Monitoring Committee (ACJMC), in collaboration with magistrates and other civil society organisations, conducted police oversight visits to several police divisions in Abuja during September 2026. The visits reviewed detainees’ cases, the allegations against them and the directives issued regarding their continued detention, release on bail, transfer for further investigation or arraignment in court.
+
+Police oversight visits remain an important part of monitoring the administration of criminal justice, promoting due process and identifying cases where continued detention or delays in the handling of a case require attention.
+
+During September, the visits covered Bwari, Ushafa, Nyanya, Apo, Maitama and Lugbe Police Stations. The exercise involved ACJMC and, during the visits to Nyanya, Apo and Maitama, magistrates, Citizens’ Gavel, AWJAI and the Nigerian Bar Association (NBA).
+
+Bwari Police Division
+
+On Thursday, 3 September 2026, the team visited Bwari Police Division, Abuja, where it reviewed the cases of seven (7) detainees, most of whom were between 18 and 35 years old. The cases involved allegations including theft, causing hurt, public nuisance and illegal possession of arms.
+
+Among the cases reviewed was that of Salisbury Adamu, aged 20, who was arrested on 31 August 2026 over an allegation of theft. According to the visit notes, no evidence directly linking him to the alleged offence was identified during the review. The Magistrate subsequently directed that he be released on police bail pending the arrival of his surety.
+
+The team also reviewed the cases of Dennis Bia, aged 35; Henry Jikdonald, aged 31; and Clement Jikdonald, aged 34. All three were arrested on 2 September 2026 over allegations of constituting a public nuisance and causing hurt. They were ordered to be released on bail as it was a matter between siblings which ordinarily shouldn’t have escalated into detention
+
+In another case, Gabriel Abraham, aged 25, and Ochikpa Emmanuel, aged 18, were arrested on 3 September 2026 over allegations of verbal insult. The review found no valid legal basis for their arrest as recorded in the visit notes, with the matter considered civil in nature. Hence, the Magistrate directed that they be released unconditionally.
+
+The team further reviewed the case of Muhammed Abdul, aged 20, who was arrested on 31 August 2026 over allegations of illegal possession of arms and housebreaking. He was scheduled to be transferred to the State Criminal Investigation Department (CID) for further investigation.
+
+The final case recorded at Bwari concerned David Bruno, aged 23, who was arrested over an allegation of theft. The directive was for him to be charged to court.
+
+Ushafa Police Division
+
+On 3 September 2026, the team also visited Ushafa Police Division, Abuja, where it reviewed cases involving allegations including criminal trespass, theft, housebreaking and rape.
+
+Augustine David, aged 67, was arrested on 3 September 2026. His case remained under investigation at the time of the visit, and the directive was for him to be arraigned within the prescribed time.
+
+Danjuma Francis, aged 22, was arrested on 2 September 2026 over allegations of criminal trespass, theft and housebreaking. He was expected to be arraigned in court.
+
+The team also reviewed the cases of Sunday Bulus, aged 40, and Solomon Tewase, aged 35, who were recorded as having directives for their cases to be charged to court. Bulus was arrested on 2 September, while Tewase was arrested on 3 September 2026.
+
+Similarly, Shadrach Williams, aged 30, and Tijanu Awoluba, aged 27, were arrested on 31 August and 1 September 2026, respectively, over allegations of theft. Both cases were marked for arraignment in court.
+
+The final case recorded was that of Moses, aged 17, who was accused of raping a 16 year old girl classified as a minor. However the Magistrate upon speaking to the police and the young girl established that the intercourse was totally consensual and both parties involved are minors. Moses can not be criminally liable as a minor. The magistrate also clarified stating that while sex by an adult with a minor constitute an offence of rape, however the position becomes different when two minors are involved. He was ordered to be released and not detained.
+
+Oversight Visits to Nyanya, Apo and Maitama Police Stations
+
+Between 21 and 24 September 2026, ACJMC, in collaboration with magistrates, Citizens’ Gavel, AWJAI and the NBA, conducted oversight visits to Nyanya, Apo and Maitama Police Stations in Abuja.
+
+The visits examined the status of detainees, the allegations against them and the directives relating to their cases. The records provided listed 12 detainees across the three stations.
+
+Nyanya Police Station
+
+At Nyanya Police Station, the team reviewed three cases.
+
+Chukwuka Uzo, aged 35, was arrested over an allegation involving possession of a stolen vehicle. His case had been charged to court, and he was awaiting his hearing.
+
+Al Bulama, aged 52, was being held over an allegation of rape. The directive recorded in the notes was for his transfer to the State Command.
+
+The third case concerned Idowu Gagar, aged 39, who was arrested over an alleged breach of trust. His case was marked for arraignment in court.
+
+Apo Police Station
+
+At Apo Police Station, the team reviewed the case of Innocent Solomon, aged 34, who was arrested on 21 September 2026 over an allegation of theft. The directive was for him to be charged to court.
+
+Maitama Police Station
+
+At Maitama Police Station, the team reviewed eight detainee cases.
+
+Sadiq Yusuf, aged 30, was arrested on 21 September 2026 over an allegation of theft and was to be charged to court. Adam Lawal, aged 28, was arrested on 22 September 2026 for allegedly receiving stolen property and was also marked for arraignment.
+
+The team further reviewed the cases of Abraham Gideon, aged 25, who was accused of the theft of two mobile phones, and Daniel Poyi, aged 38, who was held over an allegation of theft. The arrest dates for both men were conflicting from records of Police and detainees accounts, but the directives were for their cases to be charged to court.
+
+Ibrahim Michael, aged 19, was arrested on 20 September 2026 over an allegation of causing grievous hurt and was to be charged to court. Aminu Habib, aged 21, was arrested on 23 September 2026 over an alleged breach of trust, and his case remained under investigation.
+
+The case of Ukah Peter, aged 28, who was arrested on 23 September 2026 over an allegation of theft, however the Magistrate admitted him to bail for lack of sufficient evidence.
+
+The final case concerned Abubakar Aminu, aged 28, who was arrested on 4 September 2026 over an allegation relating to drug use. His case was to be transferred for further investigation or be arraigned appropriately.
+
+Lugbe Police Station
+
+On 24 September 2026, the team conducted a police oversight visit to Lugbe Police Station.
+
+Three detainees were interviewed: Elshadai Ilyas, aged 25; Suleiman Rabiu, aged 24; and Ibrahim Hassan, aged 30. All three were reportedly arrested in connection with allegations involving possession of drugs, and the directive was for them to be transferred for further investigation.
+
+The team also noted from the records of the police station three other detainees had already been charged to court before the team arrived.
+
+Why Police Oversight Matters
+
+The September visits highlight the importance of regularly reviewing the circumstances of detention, the legal basis for arrest and the progress of cases within police custody. Such monitoring can help identify cases requiring release, bail, further investigation or timely arraignment, while supporting compliance with due process.
+
+For the Equal Justice Initiative (EJI), police oversight is part of a broader commitment to strengthening access to justice and public accountability through law, media and social accountability. Documenting the status of detainees and the directives made during oversight visits provides a record that can inform engagement with justice-sector institutions and help draw attention to delays or procedural concerns.
+
+The allegations recorded during these visits remain allegations, and the responsibility for determining guilt rests with the courts. Effective criminal justice monitoring must therefore support both accountability for alleged offences and the protection of the rights of people in custody.
+
+Equal Justice Initiative (EJI) promotes access to justice, due process and accountable justice institutions through legal advocacy, public-interest media and social accountability.`,
+    author: 'Bernard Daniel & Hauwa Tauhid',
+    date: 'October 17, 2026',
+    readTime: '7 min read',
+    imageUrl: '/images/september-police-oversight/image4.jpg',
+    category: 'ACJMC Oversight',
+    contentHTML: `
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">EJI September 2026 Police Oversight Report: ACJMC Reviews Detainee Cases Across Abuja Police Divisions</strong></h4>
+<img src="/images/september-police-oversight/image4.jpg" alt="EJI and ACJMC oversight team with police officers outside the Bwari Divisional Headquarters of the Nigeria Police Force, FCT" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="-mt-8 mb-10 text-xs sm:text-sm text-slate-500 italic text-center">Photo Credit: Equal Justice Media</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Equal Justice Initiative (EJI) together with The Administration of Criminal Justice Monitoring Committee (ACJMC), in collaboration with magistrates and other civil society organisations, conducted police oversight visits to several police divisions in Abuja during September 2026. The visits reviewed detainees’ cases, the allegations against them and the directives issued regarding their continued detention, release on bail, transfer for further investigation or arraignment in court.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Police oversight visits remain an important part of monitoring the administration of criminal justice, promoting due process and identifying cases where continued detention or delays in the handling of a case require attention.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">During September, the visits covered Bwari, Ushafa, Nyanya, Apo, Maitama and Lugbe Police Stations. The exercise involved ACJMC and, during the visits to Nyanya, Apo and Maitama, magistrates, Citizens’ Gavel, AWJAI and the Nigerian Bar Association (NBA).</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Bwari Police Division</strong></h4>
+<img src="/images/september-police-oversight/image5.jpg" alt="Oversight team and police officers at the entrance of Bwari Police Division, Abuja" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">On Thursday, 3 September 2026, the team visited Bwari Police Division, Abuja, where it reviewed the cases of seven (7) detainees, most of whom were between 18 and 35 years old. The cases involved allegations including theft, causing hurt, public nuisance and illegal possession of arms.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Among the cases reviewed was that of Salisbury Adamu, aged 20, who was arrested on 31 August 2026 over an allegation of theft. According to the visit notes, no evidence directly linking him to the alleged offence was identified during the review. The Magistrate subsequently directed that he be released on police bail pending the arrival of his surety.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The team also reviewed the cases of Dennis Bia, aged 35; Henry Jikdonald, aged 31; and Clement Jikdonald, aged 34. All three were arrested on 2 September 2026 over allegations of constituting a public nuisance and causing hurt. They were ordered to be released on bail as it was a matter between siblings which ordinarily shouldn’t have escalated into detention</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">In another case, Gabriel Abraham, aged 25, and Ochikpa Emmanuel, aged 18, were arrested on 3 September 2026 over allegations of verbal insult. The review found no valid legal basis for their arrest as recorded in the visit notes, with the matter considered civil in nature. Hence, the Magistrate directed that they be released unconditionally.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The team further reviewed the case of Muhammed Abdul, aged 20, who was arrested on 31 August 2026 over allegations of illegal possession of arms and housebreaking. He was scheduled to be transferred to the State Criminal Investigation Department (CID) for further investigation.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The final case recorded at Bwari concerned David Bruno, aged 23, who was arrested over an allegation of theft. The directive was for him to be charged to court.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Ushafa Police Division</strong></h4>
+<img src="/images/september-police-oversight/image6.jpg" alt="Oversight team with police officers on the steps of Ushafa Police Division, beneath a sign reading &quot;Bail is free&quot;" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">On 3 September 2026, the team also visited Ushafa Police Division, Abuja, where it reviewed cases involving allegations including criminal trespass, theft, housebreaking and rape.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Augustine David, aged 67, was arrested on 3 September 2026. His case remained under investigation at the time of the visit, and the directive was for him to be arraigned within the prescribed time.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Danjuma Francis, aged 22, was arrested on 2 September 2026 over allegations of criminal trespass, theft and housebreaking. He was expected to be arraigned in court.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The team also reviewed the cases of Sunday Bulus, aged 40, and Solomon Tewase, aged 35, who were recorded as having directives for their cases to be charged to court. Bulus was arrested on 2 September, while Tewase was arrested on 3 September 2026.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Similarly, Shadrach Williams, aged 30, and Tijanu Awoluba, aged 27, were arrested on 31 August and 1 September 2026, respectively, over allegations of theft. Both cases were marked for arraignment in court.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The final case recorded was that of Moses, aged 17, who was accused of raping a 16 year old girl classified as a minor. However the Magistrate upon speaking to the police and the young girl established that the intercourse was totally consensual and both parties involved are minors. Moses can not be criminally liable as a minor. The magistrate also clarified stating that while sex by an adult with a minor constitute an offence of rape, however the position becomes different when two minors are involved. He was ordered to be released and not detained.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Oversight Visits to Nyanya, Apo and Maitama Police Stations</strong></h4>
+<img src="/images/september-police-oversight/image1.jpg" alt="Magistrates, ACJMC members and civil society representatives during the September oversight visits to police stations in Abuja" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Between 21 and 24 September 2026, ACJMC, in collaboration with magistrates, Citizens’ Gavel, AWJAI and the NBA, conducted oversight visits to Nyanya, Apo and Maitama Police Stations in Abuja.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The visits examined the status of detainees, the allegations against them and the directives relating to their cases. The records provided listed 12 detainees across the three stations.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Nyanya Police Station</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">At Nyanya Police Station, the team reviewed three cases.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Chukwuka Uzo, aged 35, was arrested over an allegation involving possession of a stolen vehicle. His case had been charged to court, and he was awaiting his hearing.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Al Bulama, aged 52, was being held over an allegation of rape. The directive recorded in the notes was for his transfer to the State Command.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The third case concerned Idowu Gagar, aged 39, who was arrested over an alleged breach of trust. His case was marked for arraignment in court.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Apo Police Station</strong></h4>
+<img src="/images/september-police-oversight/image2.jpg" alt="Oversight team outside the Apo Divisional Headquarters, FCT Abuja" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">At Apo Police Station, the team reviewed the case of Innocent Solomon, aged 34, who was arrested on 21 September 2026 over an allegation of theft. The directive was for him to be charged to court.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Maitama Police Station</strong></h4>
+<img src="/images/september-police-oversight/image3.jpg" alt="Oversight team with a police officer outside the Maitama Divisional Headquarters of the Nigeria Police Force, FCT Abuja" class="my-12 rounded-xl shadow-lg w-full object-cover" />
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">At Maitama Police Station, the team reviewed eight detainee cases.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Sadiq Yusuf, aged 30, was arrested on 21 September 2026 over an allegation of theft and was to be charged to court. Adam Lawal, aged 28, was arrested on 22 September 2026 for allegedly receiving stolen property and was also marked for arraignment.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The team further reviewed the cases of Abraham Gideon, aged 25, who was accused of the theft of two mobile phones, and Daniel Poyi, aged 38, who was held over an allegation of theft. The arrest dates for both men were conflicting from records of Police and detainees accounts, but the directives were for their cases to be charged to court.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Ibrahim Michael, aged 19, was arrested on 20 September 2026 over an allegation of causing grievous hurt and was to be charged to court. Aminu Habib, aged 21, was arrested on 23 September 2026 over an alleged breach of trust, and his case remained under investigation.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The case of Ukah Peter, aged 28, who was arrested on 23 September 2026 over an allegation of theft, however the Magistrate admitted him to bail for lack of sufficient evidence.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The final case concerned Abubakar Aminu, aged 28, who was arrested on 4 September 2026 over an allegation relating to drug use. His case was to be transferred for further investigation or be arraigned appropriately.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Lugbe Police Station</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">On 24 September 2026, the team conducted a police oversight visit to Lugbe Police Station.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Three detainees were interviewed: Elshadai Ilyas, aged 25; Suleiman Rabiu, aged 24; and Ibrahim Hassan, aged 30. All three were reportedly arrested in connection with allegations involving possession of drugs, and the directive was for them to be transferred for further investigation.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The team also noted from the records of the police station three other detainees had already been charged to court before the team arrived.</p>
+<h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Why Police Oversight Matters</strong></h4>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The September visits highlight the importance of regularly reviewing the circumstances of detention, the legal basis for arrest and the progress of cases within police custody. Such monitoring can help identify cases requiring release, bail, further investigation or timely arraignment, while supporting compliance with due process.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">For the Equal Justice Initiative (EJI), police oversight is part of a broader commitment to strengthening access to justice and public accountability through law, media and social accountability. Documenting the status of detainees and the directives made during oversight visits provides a record that can inform engagement with justice-sector institutions and help draw attention to delays or procedural concerns.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The allegations recorded during these visits remain allegations, and the responsibility for determining guilt rests with the courts. Effective criminal justice monitoring must therefore support both accountability for alleged offences and the protection of the rights of people in custody.</p>
+<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Equal Justice Initiative (EJI) promotes access to justice, due process and accountable justice institutions through legal advocacy, public-interest media and social accountability.</p>
+`
+  },
+  {
     id: 'news-7',
     title: "August Police Monitoring: EJI Raises Concern Over Prolonged Detention and Rising Sexual Offence Cases",
     excerpt: "Monitoring visits to police detention facilities across the Federal Capital Territory in August 2026 found suspects held beyond the statutory period without valid remand orders, only one detainee with access to a lawyer, and a rise in allegations of sexual offences involving minors.",
