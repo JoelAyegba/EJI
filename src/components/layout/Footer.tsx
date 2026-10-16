@@ -125,7 +125,7 @@ export const Footer: React.FC = () => {
 
         {/* Legal & Copyright */}
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-xs text-slate-400">
-          <p>&copy; {new Date().getFullYear()} Equal Justice Initiative (EJI) Nigeria. All Rights Reserved. CAC Reg: CAC/IT/NO/948271.</p>
+          <p>&copy; {new Date().getFullYear()} Equal Justice Initiative (EJI) Nigeria. All Rights Reserved. CAC Reg: CAC/IT/NO/9299556.</p>
         </div>
       </div>
     </footer>

@@ -153,7 +153,7 @@ export const About: React.FC = () => {
           {/* Content */}
           <div className="lg:col-span-6">
             <span className="inline-block text-[10px] font-mono uppercase tracking-wider text-slate-500 border border-slate-200 rounded-full px-2.5 py-1 mb-6">
-              RC 9299556 · Registered NGO
+              CAC/IT/NO/9299556 · Registered NGO
             </span>
             <p className="text-slate-600 text-lg leading-relaxed">
               The Equal Justice Initiative (EJI) is a registered Non-Governmental Organisation based in Nigeria, operating at the forefront of justice reform, advocacy, and social accountability to advance the Rule of Law. As Africa&rsquo;s premier non-governmental civic hub, we sit at the crossroads of <span className="text-slate-900 font-semibold">Law</span>, <span className="text-slate-900 font-semibold">Media</span>, and <span className="text-slate-900 font-semibold">Social Accountability</span>.
