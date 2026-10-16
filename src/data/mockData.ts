@@ -160,8 +160,6 @@ The September visits highlight the importance of regularly reviewing the circums
 
 For the Equal Justice Initiative (EJI), police oversight is part of a broader commitment to strengthening access to justice and public accountability through law, media and social accountability. Documenting the status of detainees and the directives made during oversight visits provides a record that can inform engagement with justice-sector institutions and help draw attention to delays or procedural concerns.
 
-The allegations recorded during these visits remain allegations, and the responsibility for determining guilt rests with the courts. Effective criminal justice monitoring must therefore support both accountability for alleged offences and the protection of the rights of people in custody.
-
 Equal Justice Initiative (EJI) promotes access to justice, due process and accountable justice institutions through legal advocacy, public-interest media and social accountability.`,
     author: 'Bernard Daniel & Hauwa Tauhid',
     date: 'October 17, 2026',
@@ -218,7 +216,6 @@ Equal Justice Initiative (EJI) promotes access to justice, due process and accou
 <h4 class="font-sans text-xl sm:text-2xl font-black text-slate-900 mt-16 mb-8 ml-4 sm:ml-8 border-l-4 border-advocacy-gold pl-4"><strong class="font-bold text-slate-900">Why Police Oversight Matters</strong></h4>
 <p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The September visits highlight the importance of regularly reviewing the circumstances of detention, the legal basis for arrest and the progress of cases within police custody. Such monitoring can help identify cases requiring release, bail, further investigation or timely arraignment, while supporting compliance with due process.</p>
 <p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">For the Equal Justice Initiative (EJI), police oversight is part of a broader commitment to strengthening access to justice and public accountability through law, media and social accountability. Documenting the status of detainees and the directives made during oversight visits provides a record that can inform engagement with justice-sector institutions and help draw attention to delays or procedural concerns.</p>
-<p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">The allegations recorded during these visits remain allegations, and the responsibility for determining guilt rests with the courts. Effective criminal justice monitoring must therefore support both accountability for alleged offences and the protection of the rights of people in custody.</p>
 <p class="mb-6 md:mb-8 text-base md:text-lg leading-relaxed text-slate-700">Equal Justice Initiative (EJI) promotes access to justice, due process and accountable justice institutions through legal advocacy, public-interest media and social accountability.</p>
 `
   },
